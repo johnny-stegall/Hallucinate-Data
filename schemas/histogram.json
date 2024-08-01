@@ -1,0 +1,299 @@
+{
+	"type": "object",
+	"properties":
+	{
+		"visualization":
+		{
+			"type": "object",
+			"properties":
+			{
+				"axes":
+				{
+					"type": "object",
+					"properties":
+					{
+						"x":
+						{
+							"type": "object",
+							"properties":
+							{
+								"domainLine":
+								{
+									"type": "boolean",
+									"description": "A flag indicating whether or not to show the domain line.",
+									"default": "false"
+								},
+								"label":
+								{
+									"type": "string",
+									"description": "A label describing the ticks."
+								},
+								"location":
+								{
+									"type": "string",
+									"enum": ["Bottom", "Top"],
+									"default": "Bottom",
+									"description": "The location."
+								},
+								"tickFormat":
+								{
+									"type": "string",
+									"description": "The tick format."
+								},
+								"ticks":
+								{
+									"type": "number",
+									"description": "The number of ticks."
+								}
+							}
+						},
+						"y":
+						{
+							"type": "object",
+							"properties":
+							{
+								"domainLine":
+								{
+									"type": "boolean",
+									"description": "A flag indicating whether or not to show the domain line.",
+									"default": "false"
+								},
+								"label":
+								{
+									"type": "string",
+									"description": "A label describing the ticks."
+								},
+								"location":
+								{
+									"type": "string",
+									"enum": ["Bottom", "Top"],
+									"default": "Bottom",
+									"description": "The location."
+								},
+								"tickFormat":
+								{
+									"type": "string",
+									"description": "The tick format."
+								},
+								"ticks":
+								{
+									"type": "number",
+									"description": "The number of ticks."
+								}
+							}
+						}
+					}
+				},
+				"bins":
+				{
+					"type": "number",
+					"minimum": 2,
+					"description": "The number of data thresholds to use to separate the data."
+				},
+				"colorPalette":
+				{
+					"type": ["string", "array"],
+					"items": { "type": "string" },
+					"default": "schemeCategory10",
+					"description": "The name of a d3 color interpolation palette. See: https://d3js.org/d3-scale-chromatic."
+				},
+				"fontFamily":
+				{
+					"type": "string",
+					"default": "Arial, Helvitica, Sans-Serif",
+					"description": "The node/edge label font family."
+				},
+				"fontSize":
+				{
+					"type": "number",
+					"minimum": 5,
+					"default": 14,
+					"description": "The node/edge label font size (in pixels)."
+				},
+				"height":
+				{
+					"type": "number",
+					"minimum": 200,
+					"default": 1000,
+					"description": "The visualization height."
+				},
+				"labelProperty":
+				{
+					"type": "string",
+					"default": "key",
+					"description": "The data property to use for labels."
+				},
+				"legend":
+				{
+					"type": "object",
+					"properties":
+					{
+						"columnWidth":
+						{
+							"type": "number",
+							"description": "The width of columns, for fixed-width swatches."
+						},
+						"format":
+						{
+							"type": "string",
+							"description": "The format."
+						},
+						"formatUnknown":
+						{
+							"type": "string",
+							"description": "Formatting to use for unknown domains."
+						},
+						"height":
+						{
+							"type": "number",
+							"minimum": 0,
+							"default": "44 + tickSize",
+							"description": "The height."
+						},
+						"marginBottom": 
+						{
+							"type": "number",
+							"minimum": 0,
+							"default": "16 + tickSize",
+							"description": "The bottom margin."
+						},
+						"marginLeft":
+						{
+							"type": "number",
+							"minimum": 0,
+							"default": 0,
+							"description": "The left margin."
+						},
+						"marginRight":
+						{
+							"type": "number",
+							"minimum": 0,
+							"default": 0,
+							"description": "The right margin."
+						},
+						"marginTop":
+						{
+							"type": "number",
+							"minimum": 0,
+							"default": 18,
+							"description": "The top margin."
+						},
+						"swatchHeight":
+						{
+							"type": "number",
+							"minimum": 0,
+							"default": 15,
+							"description": "The swatch height."
+						},
+						"swatchSize":
+						{
+							"type": "number",
+							"minimum": 0,
+							"default": 15,
+							"description": "The swatch size (width and height)."
+						},
+						"swatchWidth":
+						{
+							"type": "number",
+							"minimum": 0,
+							"default": 15,
+							"description": "The swatch width."
+						},
+						"tickFormat":
+						{
+							"type": "string",
+							"description": "The tick format."
+						},
+						"ticks":
+						{
+							"type": "number",
+							"default": "width / 64",
+							"description": "The number of ticks."
+						},
+						"tickSize":
+						{
+							"type": "number",
+							"minimum": 0,
+							"default": 6,
+							"description": "The tick size."
+						},
+						"tickValues":
+						{
+							"type": "array",
+							"items": { "type": "number" },
+							"description": "The tick values."
+						},
+						"title":
+						{
+							"type": "string",
+							"description": "The title."
+						},
+						"type":
+						{
+							"type": "string",
+							"enum": ["Legend", "Swatches"],
+							"default": "Legend",
+							"description": "A traditional legend or color swatches."
+						},
+						"width":
+						{
+							"type": "number",
+							"minimum": 0,
+							"default": 950,
+							"description": "The width."
+						}
+					}
+				},
+				"marginBottom": 
+				{
+					"type": "number",
+					"minimum": 0,
+					"description": "The bottom margin."
+				},
+				"marginLeft":
+				{
+					"type": "number",
+					"minimum": 0,
+					"description": "The left margin."
+				},
+				"marginRight":
+				{
+					"type": "number",
+					"minimum": 0,
+					"description": "The right margin."
+				},
+				"marginTop":
+				{
+					"type": "number",
+					"minimum": 0,
+					"description": "The top margin."
+				},
+				"valueProperty":
+				{
+					"type": "string",
+					"default": "value",
+					"description": "The data property to use as the value."
+				},
+				"viewbox":
+				{
+					"type": "string",
+					"pattern": "^[0-9-]+ [0-9-]+ [0-9-]+ [0-9-]+$",
+					"description": "The visualization viewbox."
+				},
+				"width":
+				{
+					"type": "number",
+					"minimum": 200,
+					"default": 1000,
+					"description": "The visualization width."
+				}
+			}
+		},
+		"data":
+		{
+			"type": "array",
+			"items": { "type": "object" }
+		}
+	},
+	"required": ["data"]
+}

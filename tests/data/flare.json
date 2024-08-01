@@ -1,0 +1,1041 @@
+{
+	"key": "flare",
+	"children":
+	[
+		{
+			"key": "analytics",
+			"children": [
+				{
+					"key": "cluster",
+					"children": [
+						{
+							"key": "Agglomerative Cluster",
+							"value": 3938
+						},
+						{
+							"key": "Community Structure",
+							"value": 3812
+						},
+						{
+							"key": "Hierarchical Cluster",
+							"value": 6714
+						},
+						{
+							"key": "Merge Edge",
+							"value": 743
+						}
+					]
+				},
+				{
+					"key": "graph",
+					"children": [
+						{
+							"key": "Betweenness Centrality",
+							"value": 3534
+						},
+						{
+							"key": "Link Distance",
+							"value": 5731
+						},
+						{
+							"key": "Max Flow Min Cut",
+							"value": 7840
+						},
+						{
+							"key": "Shortest Paths",
+							"value": 5914
+						},
+						{
+							"key": "Spanning Tree",
+							"value": 3416
+						}
+					]
+				},
+				{
+					"key": "optimization",
+					"children": [
+						{
+							"key": "Aspect Ratio Banker",
+							"value": 7074
+						}
+					]
+				}
+			]
+		},
+		{
+			"key": "animate",
+			"children": [
+				{
+					"key": "Easing",
+					"value": 17010
+				},
+				{
+					"key": "Function Sequence",
+					"value": 5842
+				},
+				{
+					"key": "interpolate",
+					"children": [
+						{
+							"key": "Array Interpolator",
+							"value": 1983
+						},
+						{
+							"key": "Color Interpolator",
+							"value": 2047
+						},
+						{
+							"key": "Date Interpolator",
+							"value": 1375
+						},
+						{
+							"key": "Interpolator",
+							"value": 8746
+						},
+						{
+							"key": "Matrix Interpolator",
+							"value": 2202
+						},
+						{
+							"key": "Number Interpolator",
+							"value": 1382
+						},
+						{
+							"key": "Object Interpolator",
+							"value": 1629
+						},
+						{
+							"key": "Point Interpolator",
+							"value": 1675
+						},
+						{
+							"key": "Rectangle Interpolator",
+							"value": 2042
+						}
+					]
+				},
+				{
+					"key": "ISchedulable",
+					"value": 1041
+				},
+				{
+					"key": "Parallel",
+					"value": 5176
+				},
+				{
+					"key": "Pause",
+					"value": 449
+				},
+				{
+					"key": "Scheduler",
+					"value": 5593
+				},
+				{
+					"key": "Sequence",
+					"value": 5534
+				},
+				{
+					"key": "Transition",
+					"value": 9201
+				},
+				{
+					"key": "Transitioner",
+					"value": 19975
+				},
+				{
+					"key": "Transition Event",
+					"value": 1116
+				},
+				{
+					"key": "Tween",
+					"value": 6006
+				}
+			]
+		},
+		{
+			"key": "data",
+			"children": [
+				{
+					"key": "converters",
+					"children": [
+						{
+							"key": "Converters",
+							"value": 721
+						},
+						{
+							"key": "Delimited Text Converter",
+							"value": 4294
+						},
+						{
+							"key": "Graph MLConverter",
+							"value": 9800
+						},
+						{
+							"key": "IData Converter",
+							"value": 1314
+						},
+						{
+							"key": "JSONConverter",
+							"value": 2220
+						}
+					]
+				},
+				{
+					"key": "Data Field",
+					"value": 1759
+				},
+				{
+					"key": "Data Schema",
+					"value": 2165
+				},
+				{
+					"key": "Data Set",
+					"value": 586
+				},
+				{
+					"key": "Data Source",
+					"value": 3331
+				},
+				{
+					"key": "Data Table",
+					"value": 772
+				},
+				{
+					"key": "Data Util",
+					"value": 3322
+				}
+			]
+		},
+		{
+			"key": "display",
+			"children": [
+				{
+					"key": "Dirty Sprite",
+					"value": 8833
+				},
+				{
+					"key": "Line Sprite",
+					"value": 1732
+				},
+				{
+					"key": "Rect Sprite",
+					"value": 3623
+				},
+				{
+					"key": "Text Sprite",
+					"value": 10066
+				}
+			]
+		},
+		{
+			"key": "flex",
+			"children": [
+				{
+					"key": "Flare Vis",
+					"value": 4116
+				}
+			]
+		},
+		{
+			"key": "physics",
+			"children": [
+				{
+					"key": "Drag Force",
+					"value": 1082
+				},
+				{
+					"key": "Gravity Force",
+					"value": 1336
+				},
+				{
+					"key": "IForce",
+					"value": 319
+				},
+				{
+					"key": "NBody Force",
+					"value": 10498
+				},
+				{
+					"key": "Particle",
+					"value": 2822
+				},
+				{
+					"key": "Simulation",
+					"value": 9983
+				},
+				{
+					"key": "Spring",
+					"value": 2213
+				},
+				{
+					"key": "Spring Force",
+					"value": 1681
+				}
+			]
+		},
+		{
+			"key": "query",
+			"children": [
+				{
+					"key": "Aggregate Expression",
+					"value": 1616
+				},
+				{
+					"key": "And",
+					"value": 1027
+				},
+				{
+					"key": "Arithmetic",
+					"value": 3891
+				},
+				{
+					"key": "Average",
+					"value": 891
+				},
+				{
+					"key": "Binary Expression",
+					"value": 2893
+				},
+				{
+					"key": "Comparison",
+					"value": 5103
+				},
+				{
+					"key": "Composite Expression",
+					"value": 3677
+				},
+				{
+					"key": "Count",
+					"value": 781
+				},
+				{
+					"key": "Date Util",
+					"value": 4141
+				},
+				{
+					"key": "Distinct",
+					"value": 933
+				},
+				{
+					"key": "Expression",
+					"value": 5130
+				},
+				{
+					"key": "Expression Iterator",
+					"value": 3617
+				},
+				{
+					"key": "Fn",
+					"value": 3240
+				},
+				{
+					"key": "If",
+					"value": 2732
+				},
+				{
+					"key": "Is A",
+					"value": 2039
+				},
+				{
+					"key": "Literal",
+					"value": 1214
+				},
+				{
+					"key": "Match",
+					"value": 3748
+				},
+				{
+					"key": "Maximum",
+					"value": 843
+				},
+				{
+					"key": "methods",
+					"children": [
+						{
+							"key": "add",
+							"value": 593
+						},
+						{
+							"key": "and",
+							"value": 330
+						},
+						{
+							"key": "average",
+							"value": 287
+						},
+						{
+							"key": "count",
+							"value": 277
+						},
+						{
+							"key": "distinct",
+							"value": 292
+						},
+						{
+							"key": "div",
+							"value": 595
+						},
+						{
+							"key": "eq",
+							"value": 594
+						},
+						{
+							"key": "fn",
+							"value": 460
+						},
+						{
+							"key": "gt",
+							"value": 603
+						},
+						{
+							"key": "gte",
+							"value": 625
+						},
+						{
+							"key": "iff",
+							"value": 748
+						},
+						{
+							"key": "isa",
+							"value": 461
+						},
+						{
+							"key": "lt",
+							"value": 597
+						},
+						{
+							"key": "lte",
+							"value": 619
+						},
+						{
+							"key": "max",
+							"value": 283
+						},
+						{
+							"key": "min",
+							"value": 283
+						},
+						{
+							"key": "mod",
+							"value": 591
+						},
+						{
+							"key": "mul",
+							"value": 603
+						},
+						{
+							"key": "neq",
+							"value": 599
+						},
+						{
+							"key": "not",
+							"value": 386
+						},
+						{
+							"key": "or",
+							"value": 323
+						},
+						{
+							"key": "orderby",
+							"value": 307
+						},
+						{
+							"key": "range",
+							"value": 772
+						},
+						{
+							"key": "select",
+							"value": 296
+						},
+						{
+							"key": "stddev",
+							"value": 363
+						},
+						{
+							"key": "sub",
+							"value": 600
+						},
+						{
+							"key": "sum",
+							"value": 280
+						},
+						{
+							"key": "update",
+							"value": 307
+						},
+						{
+							"key": "variance",
+							"value": 335
+						},
+						{
+							"key": "where",
+							"value": 299
+						},
+						{
+							"key": "xor",
+							"value": 354
+						},
+						{
+							"key": "_",
+							"value": 264
+						}
+					]
+				},
+				{
+					"key": "Minimum",
+					"value": 843
+				},
+				{
+					"key": "Not",
+					"value": 1554
+				},
+				{
+					"key": "Or",
+					"value": 970
+				},
+				{
+					"key": "Query",
+					"value": 13896
+				},
+				{
+					"key": "Range",
+					"value": 1594
+				},
+				{
+					"key": "String Util",
+					"value": 4130
+				},
+				{
+					"key": "Sum",
+					"value": 791
+				},
+				{
+					"key": "Variable",
+					"value": 1124
+				},
+				{
+					"key": "Variance",
+					"value": 1876
+				},
+				{
+					"key": "Xor",
+					"value": 1101
+				}
+			]
+		},
+		{
+			"key": "scale",
+			"children": [
+				{
+					"key": "IScale Map",
+					"value": 2105
+				},
+				{
+					"key": "Linear Scale",
+					"value": 1316
+				},
+				{
+					"key": "Log Scale",
+					"value": 3151
+				},
+				{
+					"key": "Ordinal Scale",
+					"value": 3770
+				},
+				{
+					"key": "Quantile Scale",
+					"value": 2435
+				},
+				{
+					"key": "Quantitative Scale",
+					"value": 4839
+				},
+				{
+					"key": "Root Scale",
+					"value": 1756
+				},
+				{
+					"key": "Scale",
+					"value": 4268
+				},
+				{
+					"key": "Scale Type",
+					"value": 1821
+				},
+				{
+					"key": "Time Scale",
+					"value": 5833
+				}
+			]
+		},
+		{
+			"key": "util",
+			"children": [
+				{
+					"key": "Arrays",
+					"value": 8258
+				},
+				{
+					"key": "Colors",
+					"value": 10001
+				},
+				{
+					"key": "Dates",
+					"value": 8217
+				},
+				{
+					"key": "Displays",
+					"value": 12555
+				},
+				{
+					"key": "Filter",
+					"value": 2324
+				},
+				{
+					"key": "Geometry",
+					"value": 10993
+				},
+				{
+					"key": "heap",
+					"children": [
+						{
+							"key": "Fibonacci Heap",
+							"value": 9354
+						},
+						{
+							"key": "Heap Node",
+							"value": 1233
+						}
+					]
+				},
+				{
+					"key": "IEvaluable",
+					"value": 335
+				},
+				{
+					"key": "IPredicate",
+					"value": 383
+				},
+				{
+					"key": "IValue Proxy",
+					"value": 874
+				},
+				{
+					"key": "math",
+					"children": [
+						{
+							"key": "Dense Matrix",
+							"value": 3165
+						},
+						{
+							"key": "IMatrix",
+							"value": 2815
+						},
+						{
+							"key": "Sparse Matrix",
+							"value": 3366
+						}
+					]
+				},
+				{
+					"key": "Maths",
+					"value": 17705
+				},
+				{
+					"key": "Orientation",
+					"value": 1486
+				},
+				{
+					"key": "palette",
+					"children": [
+						{
+							"key": "Color Palette",
+							"value": 6367
+						},
+						{
+							"key": "Palette",
+							"value": 1229
+						},
+						{
+							"key": "Shape Palette",
+							"value": 2059
+						},
+						{
+							"key": "Size Palette",
+							"value": 2291
+						}
+					]
+				},
+				{
+					"key": "Property",
+					"value": 5559
+				},
+				{
+					"key": "Shapes",
+					"value": 19118
+				},
+				{
+					"key": "Sort",
+					"value": 6887
+				},
+				{
+					"key": "Stats",
+					"value": 6557
+				},
+				{
+					"key": "Strings",
+					"value": 22026
+				}
+			]
+		},
+		{
+			"key": "vis",
+			"children": [
+				{
+					"key": "axis",
+					"children": [
+						{
+							"key": "Axes",
+							"value": 1302
+						},
+						{
+							"key": "Axis",
+							"value": 24593
+						},
+						{
+							"key": "Axis Grid Line",
+							"value": 652
+						},
+						{
+							"key": "Axis Label",
+							"value": 636
+						},
+						{
+							"key": "Cartesian Axes",
+							"value": 6703
+						}
+					]
+				},
+				{
+					"key": "controls",
+					"children": [
+						{
+							"key": "Anchor Control",
+							"value": 2138
+						},
+						{
+							"key": "Click Control",
+							"value": 3824
+						},
+						{
+							"key": "Control",
+							"value": 1353
+						},
+						{
+							"key": "Control List",
+							"value": 4665
+						},
+						{
+							"key": "Drag Control",
+							"value": 2649
+						},
+						{
+							"key": "Expand Control",
+							"value": 2832
+						},
+						{
+							"key": "Hover Control",
+							"value": 4896
+						},
+						{
+							"key": "IControl",
+							"value": 763
+						},
+						{
+							"key": "Pan Zoom Control",
+							"value": 5222
+						},
+						{
+							"key": "Selection Control",
+							"value": 7862
+						},
+						{
+							"key": "Tooltip Control",
+							"value": 8435
+						}
+					]
+				},
+				{
+					"key": "data",
+					"children": [
+						{
+							"key": "Data",
+							"value": 20544
+						},
+						{
+							"key": "Data List",
+							"value": 19788
+						},
+						{
+							"key": "Data Sprite",
+							"value": 10349
+						},
+						{
+							"key": "Edge Sprite",
+							"value": 3301
+						},
+						{
+							"key": "Node Sprite",
+							"value": 19382
+						},
+						{
+							"key": "render",
+							"children": [
+								{
+									"key": "Arrow Type",
+									"value": 698
+								},
+								{
+									"key": "Edge Renderer",
+									"value": 5569
+								},
+								{
+									"key": "IRenderer",
+									"value": 353
+								},
+								{
+									"key": "Shape Renderer",
+									"value": 2247
+								}
+							]
+						},
+						{
+							"key": "Scale Binding",
+							"value": 11275
+						},
+						{
+							"key": "Tree",
+							"value": 7147
+						},
+						{
+							"key": "Tree Builder",
+							"value": 9930
+						}
+					]
+				},
+				{
+					"key": "events",
+					"children": [
+						{
+							"key": "Data Event",
+							"value": 2313
+						},
+						{
+							"key": "Selection Event",
+							"value": 1880
+						},
+						{
+							"key": "Tooltip Event",
+							"value": 1701
+						},
+						{
+							"key": "Visualization Event",
+							"value": 1117
+						}
+					]
+				},
+				{
+					"key": "legend",
+					"children": [
+						{
+							"key": "Legend",
+							"value": 20859
+						},
+						{
+							"key": "Legend Item",
+							"value": 4614
+						},
+						{
+							"key": "Legend Range",
+							"value": 10530
+						}
+					]
+				},
+				{
+					"key": "operator",
+					"children": [
+						{
+							"key": "distortion",
+							"children": [
+								{
+									"key": "Bifocal Distortion",
+									"value": 4461
+								},
+								{
+									"key": "Distortion",
+									"value": 6314
+								},
+								{
+									"key": "Fisheye Distortion",
+									"value": 3444
+								}
+							]
+						},
+						{
+							"key": "encoder",
+							"children": [
+								{
+									"key": "Color Encoder",
+									"value": 3179
+								},
+								{
+									"key": "Encoder",
+									"value": 4060
+								},
+								{
+									"key": "Property Encoder",
+									"value": 4138
+								},
+								{
+									"key": "Shape Encoder",
+									"value": 1690
+								},
+								{
+									"key": "Size Encoder",
+									"value": 1830
+								}
+							]
+						},
+						{
+							"key": "filter",
+							"children": [
+								{
+									"key": "Fisheye Tree Filter",
+									"value": 5219
+								},
+								{
+									"key": "Graph Distance Filter",
+									"value": 3165
+								},
+								{
+									"key": "Visibility Filter",
+									"value": 3509
+								}
+							]
+						},
+						{
+							"key": "IOperator",
+							"value": 1286
+						},
+						{
+							"key": "label",
+							"children": [
+								{
+									"key": "Labeler",
+									"value": 9956
+								},
+								{
+									"key": "Radial Labeler",
+									"value": 3899
+								},
+								{
+									"key": "Stacked Area Labeler",
+									"value": 3202
+								}
+							]
+						},
+						{
+							"key": "layout",
+							"children": [
+								{
+									"key": "Axis Layout",
+									"value": 6725
+								},
+								{
+									"key": "Bundled Edge Router",
+									"value": 3727
+								},
+								{
+									"key": "Circle Layout",
+									"value": 9317
+								},
+								{
+									"key": "Circle Packing Layout",
+									"value": 12003
+								},
+								{
+									"key": "Dendrogram Layout",
+									"value": 4853
+								},
+								{
+									"key": "Force Directed Layout",
+									"value": 8411
+								},
+								{
+									"key": "Icicle Tree Layout",
+									"value": 4864
+								},
+								{
+									"key": "Indented Tree Layout",
+									"value": 3174
+								},
+								{
+									"key": "Layout",
+									"value": 7881
+								},
+								{
+									"key": "Node Link Tree Layout",
+									"value": 12870
+								},
+								{
+									"key": "Pie Layout",
+									"value": 2728
+								},
+								{
+									"key": "Radial Tree Layout",
+									"value": 12348
+								},
+								{
+									"key": "Random Layout",
+									"value": 870
+								},
+								{
+									"key": "Stacked Area Layout",
+									"value": 9121
+								},
+								{
+									"key": "Tree Map Layout",
+									"value": 9191
+								}
+							]
+						},
+						{
+							"key": "Operator",
+							"value": 2490
+						},
+						{
+							"key": "Operator List",
+							"value": 5248
+						},
+						{
+							"key": "Operator Sequence",
+							"value": 4190
+						},
+						{
+							"key": "Operator Switch",
+							"value": 2581
+						},
+						{
+							"key": "Sort Operator",
+							"value": 2023
+						}
+					]
+				},
+				{
+					"key": "Visualization",
+					"value": 16540
+				}
+			]
+		}
+	]
+}

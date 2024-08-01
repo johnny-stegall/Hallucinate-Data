@@ -1,0 +1,431 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters":
+	{
+		"functionAppName":
+		{
+			"defaultValue": "Polymorph-Image",
+			"type": "String"
+		},
+		"functionAppServicePlanName":
+		{
+			"defaultValue": "ASP-Polymorph-Image",
+			"type": "String"
+		},
+		"location":
+		{
+			"defaultValue": "southcentralus",
+			"type": "String"
+		},
+		"storageAccountName":
+		{
+			"defaultValue": "polymorphimage",
+			"type": "String"
+		}
+	},
+	"variables":
+	{
+		"functionApp": "[concat(parameters('functionAppName'), '-', variables('uniqueSuffix'))]",
+		"storageAccount": "[concat(toLower(parameters('storageAccountName')), variables('uniqueSuffix'))]",
+		"functionAppServicePlan": "[concat(parameters('functionAppServicePlanName'), '-', variables('uniqueSuffix'))]",
+		"uniqueSuffix": "[toLower(substring(uniqueString(subscription().subscriptionId), 0, 4))]"
+	},
+	"resources":
+	[
+		{
+			"type": "Microsoft.Storage/storageAccounts",
+			"apiVersion": "2023-05-01",
+			"name": "[variables('storageAccount')]",
+			"location": "[parameters('location')]",
+			"sku":
+			{
+				"name": "Standard_LRS",
+				"tier": "Standard"
+			},
+			"kind": "Storage",
+			"properties":
+			{
+				"defaultToOAuthAuthentication": true,
+				"allowCrossTenantReplication": false,
+				"minimumTlsVersion": "TLS1_2",
+				"allowBlobPublicAccess": false,
+				"networkAcls":
+				{
+					"bypass": "AzureServices",
+					"virtualNetworkRules": [],
+					"ipRules": [],
+					"defaultAction": "Allow"
+				},
+				"supportsHttpsTrafficOnly": true,
+				"encryption":
+				{
+					"services":
+					{
+						"file":
+						{
+							"keyType": "Account",
+							"enabled": true
+						},
+						"blob":
+						{
+							"keyType": "Account",
+							"enabled": true
+						}
+					},
+					"keySource": "Microsoft.Storage"
+				}
+			}
+		},
+		{
+			"type": "Microsoft.Web/serverfarms",
+			"apiVersion": "2023-12-01",
+			"name": "[variables('functionAppServicePlan')]",
+			"location": "[parameters('location')]",
+			"sku":
+			{
+				"name": "Y1",
+				"tier": "Dynamic",
+				"size": "Y1",
+				"family": "Y",
+				"capacity": 0
+			},
+			"kind": "functionapp",
+			"properties":
+			{
+				"perSiteScaling": false,
+				"elasticScaleEnabled": false,
+				"maximumElasticWorkerCount": 1,
+				"isSpot": false,
+				"reserved": true,
+				"isXenon": false,
+				"hyperV": false,
+				"targetWorkerCount": 0,
+				"targetWorkerSizeId": 0,
+				"zoneRedundant": false
+			}
+		},
+		{
+			"type": "Microsoft.Storage/storageAccounts/blobServices",
+			"apiVersion": "2023-05-01",
+			"name": "[concat(variables('storageAccount'), '/default')]",
+			"dependsOn":
+			[
+				"[resourceId('Microsoft.Storage/storageAccounts', variables('storageAccount'))]"
+			],
+			"sku":
+			{
+				"name": "Standard_LRS",
+				"tier": "Standard"
+			},
+			"properties":
+				{
+				"cors":
+				{
+					"corsRules": []
+				},
+				"deleteRetentionPolicy":
+				{
+					"allowPermanentDelete": false,
+					"enabled": false
+				}
+			}
+		},
+		{
+			"type": "Microsoft.Storage/storageAccounts/fileServices",
+			"apiVersion": "2023-05-01",
+			"name": "[concat(variables('storageAccount'), '/default')]",
+			"dependsOn":
+			[
+				"[resourceId('Microsoft.Storage/storageAccounts', variables('storageAccount'))]"
+			],
+			"sku":
+			{
+				"name": "Standard_LRS",
+				"tier": "Standard"
+			},
+			"properties":
+			{
+				"protocolSettings":
+				{
+					"smb": {}
+				},
+				"cors":
+				{
+					"corsRules": []
+				},
+				"shareDeleteRetentionPolicy":
+				{
+					"enabled": true,
+					"days": 7
+				}
+			}
+		},
+		{
+			"type": "Microsoft.Storage/storageAccounts/queueServices",
+			"apiVersion": "2023-05-01",
+			"name": "[concat(variables('storageAccount'), '/default')]",
+			"dependsOn":
+			[
+				"[resourceId('Microsoft.Storage/storageAccounts', variables('storageAccount'))]"
+			],
+			"properties":
+			{
+				"cors":
+				{
+					"corsRules": []
+				}
+			}
+		},
+		{
+			"type": "Microsoft.Storage/storageAccounts/tableServices",
+			"apiVersion": "2023-05-01",
+			"name": "[concat(variables('storageAccount'), '/default')]",
+			"dependsOn":
+			[
+				"[resourceId('Microsoft.Storage/storageAccounts', variables('storageAccount'))]"
+			],
+			"properties":
+			{
+				"cors":
+				{
+					"corsRules": []
+				}
+			}
+		},
+		{
+			"type": "Microsoft.Web/sites",
+			"apiVersion": "2023-12-01",
+			"name": "[variables('functionApp')]",
+			"location": "[parameters('location')]",
+			"dependsOn":
+			[
+				"[resourceId('Microsoft.Web/serverfarms', variables('functionAppServicePlan'))]"
+			],
+			"kind": "functionapp,linux",
+			"properties":
+			{
+				"enabled": true,
+				"hostNameSslStates":
+				[
+					{
+						"name": "polymorph-image.azurewebsites.net",
+						"sslState": "Disabled",
+						"hostType": "Standard"
+					},
+					{
+						"name": "polymorph-image.scm.azurewebsites.net",
+						"sslState": "Disabled",
+						"hostType": "Repository"
+					}
+				],
+				"serverFarmId": "[resourceId('Microsoft.Web/serverfarms', variables('functionAppServicePlan'))]",
+				"reserved": true,
+				"isXenon": false,
+				"hyperV": false,
+				"dnsConfiguration": {},
+				"vnetRouteAllEnabled": false,
+				"vnetImagePullEnabled": false,
+				"vnetContentShareEnabled": false,
+				"siteConfig":
+				{
+					"numberOfWorkers": 1,
+					"linuxFxVersion": "Node|20",
+					"acrUseManagedIdentityCreds": false,
+					"alwaysOn": false,
+					"http20Enabled": false,
+					"functionAppScaleLimit": 200,
+					"minimumElasticInstanceCount": 0
+				},
+				"scmSiteAlsoStopped": false,
+				"clientAffinityEnabled": false,
+				"clientCertEnabled": false,
+				"clientCertMode": "Required",
+				"hostNamesDisabled": false,
+				"vnetBackupRestoreEnabled": false,
+				"customDomainVerificationId": "D311E9609F46DCCEA1E5824BC5C0D2C9727EB1F961BD4306D8E51308F4A54196",
+				"containerSize": 1536,
+				"dailyMemoryTimeQuota": 0,
+				"httpsOnly": true,
+				"redundancyMode": "None",
+				"publicNetworkAccess": "Enabled",
+				"storageAccountRequired": false,
+				"keyVaultReferenceIdentity": "SystemAssigned"
+			}
+		},
+		{
+			"type": "Microsoft.Web/sites/basicPublishingCredentialsPolicies",
+			"apiVersion": "2023-12-01",
+			"name": "[concat(variables('functionApp'), '/ftp')]",
+			"location": "South Central US",
+			"dependsOn":
+			[
+				"[resourceId('Microsoft.Web/sites', variables('functionApp'))]"
+			],
+			"properties":
+			{
+				"allow": false
+			}
+		},
+		{
+			"type": "Microsoft.Web/sites/basicPublishingCredentialsPolicies",
+			"apiVersion": "2023-12-01",
+			"name": "[concat(variables('functionApp'), '/scm')]",
+			"location": "South Central US",
+			"dependsOn":
+			[
+				"[resourceId('Microsoft.Web/sites', variables('functionApp'))]"
+			],
+			"properties":
+			{
+				"allow": false
+			}
+		},
+		{
+			"type": "Microsoft.Web/sites/config",
+			"apiVersion": "2023-12-01",
+			"name": "[concat(variables('functionApp'), '/web')]",
+			"location": "[parameters('location')]",
+			"dependsOn":
+			[
+				"[resourceId('Microsoft.Web/sites', variables('functionApp'))]"
+			],
+			"properties":
+			{
+				"numberOfWorkers": 1,
+				"defaultDocuments":
+				[
+					"Default.htm",
+					"Default.html",
+					"Default.asp",
+					"index.htm",
+					"index.html",
+					"iisstart.htm",
+					"default.aspx",
+					"index.php"
+				],
+				"netFrameworkVersion": "v4.0",
+				"linuxFxVersion": "Node|20",
+				"requestTracingEnabled": false,
+				"remoteDebuggingEnabled": false,
+				"httpLoggingEnabled": false,
+				"acrUseManagedIdentityCreds": false,
+				"logsDirectorySizeLimit": 35,
+				"detailedErrorLoggingEnabled": false,
+				"publishingUsername": "REDACTED",
+				"scmType": "None",
+				"use32BitWorkerProcess": false,
+				"webSocketsEnabled": false,
+				"alwaysOn": false,
+				"managedPipelineMode": "Integrated",
+				"virtualApplications":
+				[
+					{
+						"virtualPath": "/",
+						"physicalPath": "site\\wwwroot",
+						"preloadEnabled": false
+					}
+				],
+				"loadBalancing": "LeastRequests",
+				"experiments":
+				{
+					"rampUpRules": []
+				},
+				"autoHealEnabled": false,
+				"vnetRouteAllEnabled": false,
+				"vnetPrivatePortsCount": 0,
+				"publicNetworkAccess": "Enabled",
+				"cors":
+				{
+					"allowedOrigins":
+					[
+						"https://ms.portal.azure.com"
+					],
+					"supportCredentials": false
+				},
+				"localMySqlEnabled": false,
+				"ipSecurityRestrictions":
+				[
+					{
+						"ipAddress": "Any",
+						"action": "Allow",
+						"priority": 2147483647,
+						"name": "Allow all",
+						"description": "Allow all access"
+					}
+				],
+				"scmIpSecurityRestrictions":
+				[
+					{
+						"ipAddress": "Any",
+						"action": "Allow",
+						"priority": 2147483647,
+						"name": "Allow all",
+						"description": "Allow all access"
+					}
+				],
+				"scmIpSecurityRestrictionsUseMain": false,
+				"http20Enabled": false,
+				"minTlsVersion": "1.2",
+				"scmMinTlsVersion": "1.2",
+				"ftpsState": "FtpsOnly",
+				"preWarmedInstanceCount": 0,
+				"functionAppScaleLimit": 200,
+				"functionsRuntimeScaleMonitoringEnabled": false,
+				"minimumElasticInstanceCount": 0,
+				"azureStorageAccounts": {}
+			}
+		},
+		{
+			"type": "Microsoft.Web/sites/hostNameBindings",
+			"apiVersion": "2023-12-01",
+			"name": "[concat(variables('functionApp'), '/', variables('functionApp'), '.azurewebsites.net')]",
+			"location": "[parameters('location')]",
+			"dependsOn":
+			[
+				"[resourceId('Microsoft.Web/sites', variables('functionApp'))]"
+			],
+			"properties":
+			{
+				"siteName": "Polymorph-Image",
+				"hostNameType": "Verified"
+			}
+		},
+		{
+			"type": "Microsoft.Storage/storageAccounts/blobServices/containers",
+			"apiVersion": "2023-05-01",
+			"name": "[concat(variables('storageAccount'), '/default/scm-releases')]",
+			"dependsOn":
+			[
+				"[resourceId('Microsoft.Storage/storageAccounts/blobServices', variables('storageAccount'), 'default')]",
+				"[resourceId('Microsoft.Storage/storageAccounts', variables('storageAccount'))]"
+			],
+			"properties":
+			{
+				"immutableStorageWithVersioning":
+				{
+					"enabled": false
+				},
+				"defaultEncryptionScope": "$account-encryption-key",
+				"denyEncryptionScopeOverride": false,
+				"publicAccess": "None"
+			}
+		},
+		{
+			"type": "Microsoft.Storage/storageAccounts/fileServices/shares",
+			"apiVersion": "2023-05-01",
+			"name": "[concat(variables('storageAccount'), '/default/polymorph-image')]",
+			"dependsOn":
+			[
+				"[resourceId('Microsoft.Storage/storageAccounts/fileServices', variables('storageAccount'), 'default')]",
+				"[resourceId('Microsoft.Storage/storageAccounts', variables('storageAccount'))]"
+			],
+			"properties":
+			{
+				"accessTier": "TransactionOptimized",
+				"shareQuota": 102400,
+				"enabledProtocols": "SMB"
+			}
+		}
+	]
+}

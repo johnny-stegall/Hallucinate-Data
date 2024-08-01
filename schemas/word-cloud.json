@@ -1,0 +1,107 @@
+{
+	"type": "object",
+	"properties":
+	{
+		"visualization":
+		{
+			"type": "object",
+			"properties":
+			{
+				"colorPalette":
+				{
+					"type": ["string", "array"],
+					"items": { "type": "string" },
+					"default": "schemeCategory10",
+					"description": "The name of a d3 color interpolation palette. See: https://d3js.org/d3-scale-chromatic."
+				},
+				"fontFamily":
+				{
+					"type": "string",
+					"default": "sans-serif",
+					"description": "The font family to use for words."
+				},
+				"fontScale":
+				{
+					"type": "number",
+					"minimum": 1,
+					"default": 5,
+					"description": "The size of the font for words."
+				},
+				"height":
+				{
+					"type": "number",
+					"minimum": 200,
+					"description": "The visualization height."
+				},
+				"labelProperty":
+				{
+					"type": "string",
+					"default": "key",
+					"description": "The data property to use for labels."
+				},
+				"marginBottom": 
+				{
+					"type": "number",
+					"minimum": 0,
+					"description": "The bottom margin."
+				},
+				"marginLeft":
+				{
+					"type": "number",
+					"minimum": 0,
+					"description": "The left margin."
+				},
+				"marginRight":
+				{
+					"type": "number",
+					"minimum": 0,
+					"description": "The right margin."
+				},
+				"marginTop":
+				{
+					"type": "number",
+					"minimum": 0,
+					"description": "The top margin."
+				},
+				"rotate":
+				{ 
+					"type": "number",
+					"maximum": 360,
+					"minimum": -360,
+					"default": 0,
+					"description": "The word rotation angle in degrees."
+				},
+				"valueProperty":
+				{
+					"type": "string",
+					"default": "value",
+					"description": "The data property to use as the value."
+				},
+				"viewbox":
+				{
+					"type": "string",
+					"pattern": "^[0-9-]+ [0-9-]+ [0-9-]+ [0-9-]+$",
+					"description": "The visualization viewbox."
+				},
+				"width":
+				{
+					"type": "number",
+					"minimum": 200,
+					"description": "The visualization width."
+				},
+				"wordPadding":
+				{
+					"type": "number",
+					"minimum": 0,
+					"description": "The space between words in pixels."
+				}
+			}
+		},
+		"data":
+		{
+			"type": "array",
+			"items": { "type": "object" }
+		}
+	},
+	"required": ["data"]
+}

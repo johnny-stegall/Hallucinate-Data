@@ -1,0 +1,456 @@
+{
+	"type": "object",
+	"properties":
+	{
+		"visualization":
+		{
+			"type": "object",
+			"properties":
+			{
+				"edges":
+				{
+					"type": "object",
+					"properties":
+					{
+						"areDirectional":
+						{
+							"type": "boolean",
+							"default": "false",
+							"description": "If true, edges show directional arrows from the source to the target and both directions if the edge has a boolean property 'bidirectional' set to true."
+						},
+						"colorPalette":
+						{
+							"type": ["string", "array"],
+							"items": { "type": "string" },
+							"default": "#999",
+							"description": "The name of a d3 color interpolation palette. See: https://d3js.org/d3-scale-chromatic."
+						},
+						"groupProperty":
+						{
+							"type": "string",
+							"default": "group",
+							"description": "The data property to use for grouping."
+						},
+						"idProperty":
+						{
+							"type": "string",
+							"default": "id",
+							"description": "The property that sets the ID for the SVG element."
+						},
+						"labelProperty":
+						{
+							"type": "string",
+							"default": "key",
+							"description": "The data property to use for labels."
+						},
+						"labels":
+						{
+							"type": "string",
+							"enum": ["none", "text", "tooltip"],
+							"default": "none",
+							"description": "Mechanism for displaying labels."
+						},
+						"lineStyle":
+						{
+							"type": "string",
+							"enum": ["arc", "straight"],
+							"default": "straight",
+							"description": "The style of the line used for edges."
+						},
+						"lineWidth":
+						{
+							"type": "number",
+							"minimum": 0.01,
+							"default": 1,
+							"description": "The width of the line used for edges."
+						},
+						"sourceProperty":
+						{
+							"type": "string",
+							"default": "source",
+							"description": "The data property to use as the edge starting point."
+						},
+						"targetProperty":
+						{
+							"type": "string",
+							"default": "target",
+							"description": "The data property to use as the edge ending point."
+						},
+						"valueProperty":
+						{
+							"type": "string",
+							"default": "value",
+							"description": "The data property to use as the value, which increases the line thickness."
+						}
+					},
+					"required": ["idProperty", "sourceProperty", "targetProperty"]
+				},
+				"fontFamily":
+				{
+					"type": "string",
+					"default": "Arial, Helvitica, Sans-Serif",
+					"description": "The node/edge label font family."
+				},
+				"fontSize":
+				{
+					"type": "number",
+					"minimum": 5,
+					"default": 14,
+					"description": "The node/edge label font size (in pixels)."
+				},
+				"height":
+				{
+					"type": "number",
+					"minimum": 200,
+					"default": 1000,
+					"description": "The visualization height."
+				},
+				"labels":
+				{
+					"fillColor":
+					{
+						"type": "string",
+						"pattern": "#[0-9a-fA-F]{3,6}",
+						"default": "#fff",
+						"description": "The node/edge label fill color (an HTML color code)."
+					},
+					"fontFamily":
+					{
+						"type": "string",
+						"default": "Arial, Helvitica, Sans-Serif",
+						"description": "The node/edge label font family."
+					},
+					"fontSize":
+					{
+						"type": "number",
+						"minimum": 5,
+						"default": 10,
+						"description": "The node/edge label font size (in pixels)."
+					},
+					"strokeColor":
+					{
+						"type": "string",
+						"pattern": "#[0-9a-fA-F]{3,6}",
+						"default": "#333",
+						"description": "The node/edge label stroke color (an HTML color code)."
+					},
+					"strokeWidth":
+					{
+						"type": "number",
+						"minimum": 0,
+						"default": 0.25,
+						"description": "The node/edge label stroke width."
+					}
+				},
+				"legend":
+				{
+					"type": "object",
+					"properties":
+					{
+						"columnWidth":
+						{
+							"type": "number",
+							"description": "The width of columns, for fixed-width swatches."
+						},
+						"format":
+						{
+							"type": "string",
+							"description": "The format."
+						},
+						"formatUnknown":
+						{
+							"type": "string",
+							"description": "Formatting to use for unknown domains."
+						},
+						"height":
+						{
+							"type": "number",
+							"minimum": 0,
+							"default": "44 + tickSize",
+							"description": "The height."
+						},
+						"marginBottom": 
+						{
+							"type": "number",
+							"minimum": 0,
+							"default": "16 + tickSize",
+							"description": "The bottom margin."
+						},
+						"marginLeft":
+						{
+							"type": "number",
+							"minimum": 0,
+							"default": 0,
+							"description": "The left margin."
+						},
+						"marginRight":
+						{
+							"type": "number",
+							"minimum": 0,
+							"default": 0,
+							"description": "The right margin."
+						},
+						"marginTop":
+						{
+							"type": "number",
+							"minimum": 0,
+							"default": 18,
+							"description": "The top margin."
+						},
+						"swatchHeight":
+						{
+							"type": "number",
+							"minimum": 0,
+							"default": 15,
+							"description": "The swatch height."
+						},
+						"swatchSize":
+						{
+							"type": "number",
+							"minimum": 0,
+							"default": 15,
+							"description": "The swatch size (width and height)."
+						},
+						"swatchWidth":
+						{
+							"type": "number",
+							"minimum": 0,
+							"default": 15,
+							"description": "The swatch width."
+						},
+						"tickFormat":
+						{
+							"type": "string",
+							"description": "The tick format."
+						},
+						"ticks":
+						{
+							"type": "number",
+							"default": "width / 64",
+							"description": "The number of ticks."
+						},
+						"tickSize":
+						{
+							"type": "number",
+							"minimum": 0,
+							"default": 6,
+							"description": "The tick size."
+						},
+						"tickValues":
+						{
+							"type": "array",
+							"items": { "type": "number" },
+							"description": "The tick values."
+						},
+						"title":
+						{
+							"type": "string",
+							"description": "The title."
+						},
+						"type":
+						{
+							"type": "string",
+							"enum": ["Legend", "Swatches"],
+							"default": "Legend",
+							"description": "A traditional legend or color swatches."
+						},
+						"width":
+						{
+							"type": "number",
+							"minimum": 0,
+							"default": 950,
+							"description": "The width."
+						}
+					}
+				},
+				"marginBottom": 
+				{
+					"type": "number",
+					"minimum": 0,
+					"description": "The bottom margin."
+				},
+				"marginLeft":
+				{
+					"type": "number",
+					"minimum": 0,
+					"description": "The left margin."
+				},
+				"marginRight":
+				{
+					"type": "number",
+					"minimum": 0,
+					"description": "The right margin."
+				},
+				"marginTop":
+				{
+					"type": "number",
+					"minimum": 0,
+					"description": "The top margin."
+				},
+				"nodes":
+				{
+					"type": "object",
+					"properties":
+					{
+						"colorPalette":
+						{
+							"type": ["string", "array"],
+							"items": { "type": "string" },
+							"default": "schemeCategory10",
+							"description": "The name of a d3 color interpolation palette. See: https://d3js.org/d3-scale-chromatic."
+						},
+						"groupProperty":
+						{
+							"type": "string",
+							"default": "group",
+							"description": "The data property to use for grouping."
+						},
+						"idProperty":
+						{
+							"type": "string",
+							"default": "id",
+							"description": "The property that sets the ID for the SVG element."
+						},
+						"labelProperty":
+						{
+							"type": "string",
+							"default": "key",
+							"description": "The data property to use for labels."
+						},
+						"labels":
+						{
+							"type": "string",
+							"enum": ["none", "text", "tooltip"],
+							"default": "tooltip",
+							"description": "Mechanism for displaying labels."
+						},
+						"radius":
+						{
+							"type": "number",
+							"minimum": 1,
+							"default": 5,
+							"description": "The radius of the nodes."
+						},
+						"valueProperty":
+						{
+							"type": "string",
+							"default": "value",
+							"description": "The data property to use as the value, which increases the size of the node."
+						}		
+					},
+					"required": ["idProperty"]
+				},
+				"viewbox":
+				{
+					"type": "string",
+					"pattern": "^[0-9-]+ [0-9-]+ [0-9-]+ [0-9-]+$",
+					"description": "The visualization viewbox."
+				},
+				"width":
+				{
+					"type": "number",
+					"minimum": 200,
+					"default": 1000,
+					"description": "The visualization width."
+				}
+			},
+			"required": ["edges", "nodes"]
+		},
+		"data":
+		{
+			"type": "object",
+			"properties":
+			{
+				"edges":
+				{
+					"type": "array",
+					"items":
+					{
+						"type": "object",
+						"properties":
+						{
+							"group":
+							{
+								"type": ["number", "string"],
+								"description": "The group."
+							},
+							"id":
+							{
+								"type": ["number", "string"],
+								"description": "The ID."
+							},
+							"isBidirectional":
+							{
+								"type": "boolean",
+								"description": "Set to true to have arrows for both directions of the relationship."
+							},
+							"label":
+							{
+								"type": "string",
+								"description": "The text displayed."
+							},
+							"source":
+							{
+								"type": ["number", "string"],
+								"description": "The starting node for the relationship."
+							},
+							"strength":
+							{
+								"type": "number",
+								"description": "The intensity of the force between two nodes."
+							},
+							"target":
+							{
+								"type": ["number", "string"],
+								"description": "The ending node for the relationship."
+							},
+							"value":
+							{
+								"type": ["number", "string"],
+								"description": "The value."
+							}
+						}
+					}
+				},
+				"nodes":
+				{
+					"type": "array",
+					"items":
+					{
+						"type": "object",
+						"properties":
+						{
+							"group":
+							{
+								"type": ["number", "string"],
+								"description": "The group."
+							},
+							"id":
+							{
+								"type": ["number", "string"],
+								"description": "The ID."
+							},
+							"label":
+							{
+								"type": "string",
+								"description": "The text displayed."
+							},
+							"source":
+							{
+								"type": ["number", "string"],
+								"description": "The starting node for the relationship."
+							},
+							"value":
+							{
+								"type": ["number", "string"],
+								"description": "The value."
+							}
+						}
+					}
+				}
+			},
+			"required": ["edges", "nodes"]
+		}
+	},
+	"required": ["data"]
+}

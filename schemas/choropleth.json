@@ -1,0 +1,323 @@
+{
+	"type": "object",
+	"properties":
+	{
+		"visualization":
+		{
+			"type": "object",
+			"properties":
+			{
+				"bubbles":
+				{
+					"type": "object",
+					"properties":
+					{
+						"colorPalette":
+						{
+							"type": ["string", "array"],
+							"items": { "type": "string" },
+							"description": "The name of a d3 color interpolation palette. See: https://d3js.org/d3-scale-chromatic."
+						},
+						"geographyProperty":
+						{
+							"type": "string",
+							"description": "The data property to use to map to the name of the geographic feature (e.g. state, country)."
+						},
+						"maximumRadius":
+						{
+							"type": "number",
+							"minimum": 1,
+							"default": 25,
+							"description": "The maximum radius size of a bubble."
+						},		
+						"minimumRadius":
+						{
+							"type": "number",
+							"minimum": 0,
+							"default": 0,
+							"description": "The minimum radius size of a bubble."
+						},		
+						"valueProperty":
+						{
+							"type": "string",
+							"description": "The data property to use to set the radius of the bubbles."
+						}
+					},
+					"required": ["colorPalette", "geographyProperty", "valueProperty"]
+				},
+				"fontFamily":
+				{
+					"type": "string",
+					"default": "Arial, Helvitica, Sans-Serif",
+					"description": "The label font family."
+				},
+				"fontSize":
+				{
+					"type": "number",
+					"minimum": 5,
+					"default": 14,
+					"description": "The label font size (in pixels)."
+				},
+				"geographies":
+				{
+					"type": "array",
+					"items":
+					{
+						"type": "object",
+						"properties":
+						{
+							"colorPalette":
+							{
+								"type": ["string", "array"],
+								"items": { "type": "string" },
+								"description": "The name of a d3 color interpolation palette. See: https://d3js.org/d3-scale-chromatic."
+							},
+							"geoJson":
+							{
+								"type": "string",
+								"description": "JSON conforming to the GeoJSON that creates an SVG map."
+							},
+							"type":
+							{
+								"type": "string",
+								"enum": ["Feature", "Mesh"],
+								"description": "If the geography is a feature or mesh."
+							}
+						},
+						"required": ["colorPalette", "geoJson", "type"]
+					}
+				},
+				"geographyProperty":
+				{
+					"type": "string",
+					"description": "The data property to use to map to the name of the geographic feature (e.g. state, country)."
+				},
+				"height":
+				{
+					"type": "number",
+					"minimum": 200,
+					"default": 1000,
+					"description": "The visualization height."
+				},
+				"legend":
+				{
+					"type": "object",
+					"properties":
+					{
+						"columnWidth":
+						{
+							"type": "number",
+							"description": "The width of columns, for fixed-width swatches."
+						},
+						"format":
+						{
+							"type": "string",
+							"description": "The format."
+						},
+						"formatUnknown":
+						{
+							"type": "string",
+							"description": "Formatting to use for unknown domains."
+						},
+						"height":
+						{
+							"type": "number",
+							"minimum": 0,
+							"default": "44 + tickSize",
+							"description": "The height."
+						},
+						"marginBottom": 
+						{
+							"type": "number",
+							"minimum": 0,
+							"default": "16 + tickSize",
+							"description": "The bottom margin."
+						},
+						"marginLeft":
+						{
+							"type": "number",
+							"minimum": 0,
+							"default": 0,
+							"description": "The left margin."
+						},
+						"marginRight":
+						{
+							"type": "number",
+							"minimum": 0,
+							"default": 0,
+							"description": "The right margin."
+						},
+						"marginTop":
+						{
+							"type": "number",
+							"minimum": 0,
+							"default": 18,
+							"description": "The top margin."
+						},
+						"swatchHeight":
+						{
+							"type": "number",
+							"minimum": 0,
+							"default": 15,
+							"description": "The swatch height."
+						},
+						"swatchSize":
+						{
+							"type": "number",
+							"minimum": 0,
+							"default": 15,
+							"description": "The swatch size (width and height)."
+						},
+						"swatchWidth":
+						{
+							"type": "number",
+							"minimum": 0,
+							"default": 15,
+							"description": "The swatch width."
+						},
+						"tickFormat":
+						{
+							"type": "string",
+							"description": "The tick format."
+						},
+						"ticks":
+						{
+							"type": "number",
+							"default": "width / 64",
+							"description": "The number of ticks."
+						},
+						"tickSize":
+						{
+							"type": "number",
+							"minimum": 0,
+							"default": 6,
+							"description": "The tick size."
+						},
+						"tickValues":
+						{
+							"type": "array",
+							"items": { "type": "number" },
+							"description": "The tick values."
+						},
+						"title":
+						{
+							"type": "string",
+							"description": "The title."
+						},
+						"type":
+						{
+							"type": "string",
+							"enum": ["Legend", "Swatches"],
+							"default": "Legend",
+							"description": "A traditional legend or color swatches."
+						},
+						"width":
+						{
+							"type": "number",
+							"minimum": 0,
+							"default": 950,
+							"description": "The width."
+						}
+					}
+				},
+				"marginBottom": 
+				{
+					"type": "number",
+					"minimum": 0,
+					"description": "The bottom margin."
+				},
+				"marginLeft":
+				{
+					"type": "number",
+					"minimum": 0,
+					"description": "The left margin."
+				},
+				"marginRight":
+				{
+					"type": "number",
+					"minimum": 0,
+					"description": "The right margin."
+				},
+				"marginTop":
+				{
+					"type": "number",
+					"minimum": 0,
+					"description": "The top margin."
+				},
+				"projection":
+				{
+					"type": "object",
+					"properties":
+					{
+						"fit":
+						{
+							"type": "object",
+							"properties":
+							{
+								"bottom":
+								{
+									"type": "number",
+									"description": "The bottom of the bounding box."
+								},
+								"left":
+								{
+									"type": "number",
+									"description": "The left side of the bounding box."
+								},
+								"right":
+								{
+									"type": "number",
+									"description": "The right side of the bounding box."
+								},
+								"shape":
+								{
+									"type": "string",
+									"description": "The shape being projected."
+								},
+								"top":
+								{
+									"type": "number",
+									"description": "The top of the bounding box."
+								}		
+							},
+							"required": ["bottom", "left", "right", "shape", "top"]
+						},
+						"type":
+						{
+							"type": "string",
+							"enum": ["geoAlbers", "geoAlbersUsa", "geoAzimuthalEqualArea", "geoAzimuthalEquidistant", "geoConicConformal", "geoConicEqualArea", "geoConicEquidistant", "geoEqualEarth", "geoEquirectangular", "geoGnomonic", "geoMercator", "geoNaturalEarth1", "geoOrthographic", "geoStereographic", "geoTransverseMercator"],
+							"description": "The projection."
+						}
+					},
+					"required": ["type"]
+				},
+				"valueProperty":
+				{
+					"type": "string",
+					"default": "value",
+					"description": "The data property to use as the value."
+				},
+				"viewbox":
+				{
+					"type": "string",
+					"pattern": "^[0-9-]+ [0-9-]+ [0-9-]+ [0-9-]+$",
+					"description": "The visualization viewbox."
+				},
+				"width":
+				{
+					"type": "number",
+					"minimum": 200,
+					"default": 1000,
+					"description": "The visualization width."
+				}
+			},
+			"required": ["geographies", "geographyProperty"]
+		},
+		"data":
+		{
+			"type": "array",
+			"items": { "type": "object" }
+		}
+	},
+	"required": ["data"]
+}

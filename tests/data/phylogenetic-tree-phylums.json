@@ -1,0 +1,2084 @@
+{
+	"nodes":
+	[
+		{
+			"id": "0bf142fe-9e83-de2f-c027-f2d4e8da-f5b2",
+			"name": "Archaea",
+			"group": "Domain",
+			"count": 3
+		},
+		{
+			"id": "6f5b0e66-86fe-93eb-ab1e-e99f86cd-3717",
+			"name": "Bacteria",
+			"group": "Domain",
+			"count": 1
+		},
+		{
+			"id": "2560adaa-771d-bf6a-d53a-acd83753-bbab",
+			"name": "Eukaryota",
+			"group": "Domain",
+			"count": 6
+		},
+		{
+			"id": "fab46d50-bc55-0eca-60ab-46e317e3-e8d7",
+			"name": "DPANN",
+			"group": "Kingdom",
+			"count": 7
+		},
+		{
+			"id": "a0aec52f-19ab-763d-907f-9e495310-ee12",
+			"name": "Euyarchaeota",
+			"group": "Kingdom",
+			"count": 5
+		},
+		{
+			"id": "521de86c-c5c3-7035-ad8c-6870814d-815b",
+			"name": "Proteoarchaeota",
+			"group": "Kingdom",
+			"count": 15
+		},
+		{
+			"id": "97b28bd3-13bf-2b82-95df-41345a6c-5adc",
+			"name": "Monera",
+			"group": "Kingdom",
+			"count": 39
+		},
+		{
+			"id": "d51d0700-908a-5b10-0655-3a24fb62-e322",
+			"name": "Amorphea",
+			"group": "Kingdom",
+			"count": 2
+		},
+		{
+			"id": "0c0d764a-6d25-8f17-6573-ee4f0299-e091",
+			"name": "Animalia",
+			"group": "Kingdom",
+			"count": 35
+		},
+		{
+			"id": "f047b950-8a6c-4899-07a3-f7e719fe-81cc",
+			"name": "Fungi",
+			"group": "Kingdom",
+			"count": 14
+		},
+		{
+			"id": "14f38df5-9ec6-ce49-961c-e76c5cac-2511",
+			"name": "Opimoda",
+			"group": "Kingdom",
+			"count": 1
+		},
+		{
+			"id": "ced86aa1-e198-e293-798e-d3177575-8a04",
+			"name": "Plantae",
+			"group": "Kingdom",
+			"count": 15
+		},
+		{
+			"id": "530df88d-5ea7-e706-3162-994d5622-a80c",
+			"name": "Protista",
+			"group": "Kingdom",
+			"count": 4
+		},
+		{
+			"id": "87bed8fa-fd37-3962-cf7e-75d9f8d2-8db2",
+			"name": "Aenigmarchaeota",
+			"group": "Phylum",
+			"count": 0
+		},
+		{
+			"id": "a6c3d2b7-ad4c-9129-ef3a-ea62683d-cca1",
+			"name": "Altarchaeota",
+			"group": "Phylum",
+			"count": 0
+		},
+		{
+			"id": "9fc73e2a-b167-f475-2cf0-e7b7fc2e-226c",
+			"name": "Diapherotrites",
+			"group": "Phylum",
+			"count": 0
+		},
+		{
+			"id": "cdde83e3-7898-ee50-3ee2-78fbda07-c04f",
+			"name": "Huberarchaeota",
+			"group": "Phylum",
+			"count": 0
+		},
+		{
+			"id": "94d88010-4811-57a5-4dda-96dc8830-172b",
+			"name": "Mamarchaeota",
+			"group": "Phylum",
+			"count": 0
+		},
+		{
+			"id": "4b9ba2c7-5792-3a67-a0a0-f7207c95-bf0c",
+			"name": "Micrarchaeota",
+			"group": "Phylum",
+			"count": 0
+		},
+		{
+			"id": "ab2083af-45f1-ae0d-5dde-51e7c31d-03f9",
+			"name": "Nanoarchaeota",
+			"group": "Phylum",
+			"count": 1
+		},
+		{
+			"id": "a95623bf-dc4c-6952-e37a-22a29a16-56e8",
+			"name": "Hadarchaeota",
+			"group": "Phylum",
+			"count": 1
+		},
+		{
+			"id": "1b8eccec-12ce-6328-196e-298d7f53-3ba0",
+			"name": "Halobacteriota",
+			"group": "Phylum",
+			"count": 0
+		},
+		{
+			"id": "8e4f5413-8834-4729-5e4c-651f07a2-072c",
+			"name": "Hydrothermarchaeota",
+			"group": "Phylum",
+			"count": 0
+		},
+		{
+			"id": "7af39be0-080b-c8f6-66bd-ec01aa77-a1d1",
+			"name": "Methanobacteriota",
+			"group": "Phylum",
+			"count": 0
+		},
+		{
+			"id": "62343c70-6427-dd8a-f1ea-4f1ef33e-2e5e",
+			"name": "Thermoplasmatota",
+			"group": "Phylum",
+			"count": 0
+		},
+		{
+			"id": "21775f62-6a94-1080-8a11-35a56a48-84a7",
+			"name": "Aigarchaeota",
+			"group": "Phylum",
+			"count": 0
+		},
+		{
+			"id": "e7c25b0c-af5e-eee2-7e38-dfd622a4-a64a",
+			"name": "Bathyarchaeota",
+			"group": "Phylum",
+			"count": 0
+		},
+		{
+			"id": "11ad572e-d4e5-b038-345d-c6f93ecf-75ce",
+			"name": "Culexarchaeota",
+			"group": "Phylum",
+			"count": 0
+		},
+		{
+			"id": "f5174174-2f7f-c463-13d8-861e5dc0-3a3e",
+			"name": "Gearchaeota",
+			"group": "Phylum",
+			"count": 0
+		},
+		{
+			"id": "10a234ee-9709-e752-bd5a-773ac2bc-7f00",
+			"name": "Geothermarchaeota",
+			"group": "Phylum",
+			"count": 0
+		},
+		{
+			"id": "b3b0ac14-c5ad-2673-dde9-63374b02-f680",
+			"name": "Heimdallarchaeota",
+			"group": "Phylum",
+			"count": 0
+		},
+		{
+			"id": "31952bfa-f0b5-e89e-5f6d-445d6a12-6a7d",
+			"name": "Korarchaeota",
+			"group": "Phylum",
+			"count": 1
+		},
+		{
+			"id": "789ccc49-5c48-aebc-3190-56553389-4a5d",
+			"name": "Lokiarchaeota",
+			"group": "Phylum",
+			"count": 1
+		},
+		{
+			"id": "252ddf57-3b83-021b-eed9-2bfd95d6-9d18",
+			"name": "Marsarchaeota",
+			"group": "Phylum",
+			"count": 0
+		},
+		{
+			"id": "606149aa-fbf7-6340-8a42-bfb18568-d1ba",
+			"name": "Nezhaarchaeota",
+			"group": "Phylum",
+			"count": 0
+		},
+		{
+			"id": "52525a29-7705-a4e7-7664-fe0ebe48-0e71",
+			"name": "Nitrososphaerota",
+			"group": "Phylum",
+			"count": 1
+		},
+		{
+			"id": "24a548f4-0289-963d-79ab-90ebc3cc-5aba",
+			"name": "Odinarchaeota",
+			"group": "Phylum",
+			"count": 0
+		},
+		{
+			"id": "b32a84d8-4d2f-26fd-653e-7362be5f-6be0",
+			"name": "Thermoproteota",
+			"group": "Phylum",
+			"count": 3
+		},
+		{
+			"id": "a05c617a-2c59-2b3b-bd69-a73c0322-1be0",
+			"name": "Thorarchaeota",
+			"group": "Phylum",
+			"count": 1
+		},
+		{
+			"id": "085188a6-4629-4973-7504-8af0c3d8-736f",
+			"name": "Verstraetearchaeota",
+			"group": "Phylum",
+			"count": 0
+		},
+		{
+			"id": "d405f579-7c61-6451-00cf-882fcf09-3823",
+			"name": "Acidobacteriota",
+			"group": "Phylum",
+			"count": 7
+		},
+		{
+			"id": "8c7dd25c-573d-4ca1-617f-24320b91-56fc",
+			"name": "Actinomycetota",
+			"group": "Phylum",
+			"count": 9
+		},
+		{
+			"id": "ba3b5917-de7f-561a-e2e0-0875b654-caee",
+			"name": "Aquificota",
+			"group": "Phylum",
+			"count": 3
+		},
+		{
+			"id": "c356814a-ef90-e568-22de-8ec2db18-0083",
+			"name": "Armatimonadota",
+			"group": "Phylum",
+			"count": 3
+		},
+		{
+			"id": "1b64118b-e18e-a482-38f8-6d23383c-0f21",
+			"name": "Atribacterota",
+			"group": "Phylum",
+			"count": 1
+		},
+		{
+			"id": "8bfc3751-ff1a-a701-8523-13df9fd3-72b9",
+			"name": "Bacillota",
+			"group": "Phylum",
+			"count": 10
+		},
+		{
+			"id": "be108774-e47f-8523-9bae-31e8b59f-e35b",
+			"name": "Bacteroidota",
+			"group": "Phylum",
+			"count": 6
+		},
+		{
+			"id": "2a4c71fe-b5e2-2403-2873-b5071e37-4fb6",
+			"name": "Balneolota",
+			"group": "Phylum",
+			"count": 1
+		},
+		{
+			"id": "5feea57e-89e3-11da-4cb3-b106187f-dba6",
+			"name": "Bdellovibrionota",
+			"group": "Phylum",
+			"count": 3
+		},
+		{
+			"id": "3a2ebbd9-53e8-1f47-d758-63ec2143-8e11",
+			"name": "Caldisericota",
+			"group": "Phylum",
+			"count": 1
+		},
+		{
+			"id": "59aca45b-2adb-0ea3-bb35-b6c09df4-4e8f",
+			"name": "Calditrichota",
+			"group": "Phylum",
+			"count": 1
+		},
+		{
+			"id": "60f8f71f-03de-91d0-c21e-d56bb2e8-c4be",
+			"name": "Campylobacterota",
+			"group": "Phylum",
+			"count": 3
+		},
+		{
+			"id": "efcbefe9-eb04-db76-1c26-a561c277-30e8",
+			"name": "Chlamydiota",
+			"group": "Phylum",
+			"count": 1
+		},
+		{
+			"id": "93ee7a92-fc54-551a-a31c-5861a87d-6cac",
+			"name": "Chlorobiota",
+			"group": "Phylum",
+			"count": 1
+		},
+		{
+			"id": "bd488fbf-9ab8-95a4-1d6b-90b9915f-08aa",
+			"name": "Chloroflexota",
+			"group": "Phylum",
+			"count": 15
+		},
+		{
+			"id": "d7ea8de9-9f71-c0f6-c0d0-0472b4e5-5ed0",
+			"name": "Chrysiogenota",
+			"group": "Phylum",
+			"count": 1
+		},
+		{
+			"id": "b5b8a036-3b88-71d3-f769-f3944b00-eccd",
+			"name": "Coprothermobacterota",
+			"group": "Phylum",
+			"count": 1
+		},
+		{
+			"id": "865319e3-fc9e-a490-2460-eced2b44-cc7d",
+			"name": "Deferribacterota",
+			"group": "Phylum",
+			"count": 1
+		},
+		{
+			"id": "fe15f7e9-3dd5-bb17-28ff-0426ad67-4a18",
+			"name": "Deinococcota",
+			"group": "Phylum",
+			"count": 1
+		},
+		{
+			"id": "f5ff3839-14ee-d44c-54fd-2853e6fe-e4c6",
+			"name": "Dictyoglomota",
+			"group": "Phylum",
+			"count": 1
+		},
+		{
+			"id": "ffd425fa-e86c-cd63-4854-e0e3b1cc-a854",
+			"name": "Elusimicrobiota",
+			"group": "Phylum",
+			"count": 2
+		},
+		{
+			"id": "6b07f81f-a040-9e75-77ad-3809305b-8c06",
+			"name": "Fibrobacterota",
+			"group": "Phylum",
+			"count": 3
+		},
+		{
+			"id": "8fc6e54e-c84f-b196-a362-77a0a503-36ba",
+			"name": "Fusobacteriota",
+			"group": "Phylum",
+			"count": 1
+		},
+		{
+			"id": "3be6cc96-4227-d858-f60a-f159d6f4-a03b",
+			"name": "Gemmatimonadota",
+			"group": "Phylum",
+			"count": 2
+		},
+		{
+			"id": "82e0dbbc-3a38-7fee-50eb-db9c8c96-81f3",
+			"name": "Ignavibacteriota",
+			"group": "Phylum",
+			"count": 1
+		},
+		{
+			"id": "59530b60-1095-989d-4c2f-a3b248f7-8ec8",
+			"name": "Lentisphaerota",
+			"group": "Phylum",
+			"count": 2
+		},
+		{
+			"id": "d9bc780d-75bb-d134-5a31-6bed5c3b-5fce",
+			"name": "Mycoplasmatota",
+			"group": "Phylum",
+			"count": 1
+		},
+		{
+			"id": "c56e5342-55d9-6f75-f117-0ea31f38-f580",
+			"name": "Myxococcota",
+			"group": "Phylum",
+			"count": 2
+		},
+		{
+			"id": "f44e9d1e-93fd-443d-2fa3-e9c5338d-09eb",
+			"name": "Nitrospinota",
+			"group": "Phylum",
+			"count": 1
+		},
+		{
+			"id": "b2e79378-a911-d05d-9697-60d40663-78b6",
+			"name": "Nitrospirota",
+			"group": "Phylum",
+			"count": 3
+		},
+		{
+			"id": "8c672b93-c9b7-1c4e-30bb-683925fb-f6d6",
+			"name": "Planctomycetota",
+			"group": "Phylum",
+			"count": 4
+		},
+		{
+			"id": "867803d7-6452-4755-69b1-e1ea681a-c842",
+			"name": "Pseudomonadota",
+			"group": "Phylum",
+			"count": 6
+		},
+		{
+			"id": "239dc046-9aa2-bf93-abea-c994d923-4f5b",
+			"name": "Rhodothermota",
+			"group": "Phylum",
+			"count": 1
+		},
+		{
+			"id": "08ab8808-04dc-ed62-b227-e68a4608-5029",
+			"name": "Spirochaetota",
+			"group": "Phylum",
+			"count": 1
+		},
+		{
+			"id": "12de1f50-d2d2-c024-6e03-81c0aa2c-d76f",
+			"name": "Synergistota",
+			"group": "Phylum",
+			"count": 1
+		},
+		{
+			"id": "be730034-5e1a-c7ec-b7c0-210e0356-596e",
+			"name": "Thermodesulfobacteriota",
+			"group": "Phylum",
+			"count": 16
+		},
+		{
+			"id": "8491da0f-f624-b842-a521-c25d4b67-dd1d",
+			"name": "Thermomicrobiota",
+			"group": "Phylum",
+			"count": 1
+		},
+		{
+			"id": "1168f462-8361-17cd-5b69-e78e1f01-1772",
+			"name": "Thermotogota",
+			"group": "Phylum",
+			"count": 1
+		},
+		{
+			"id": "31e91ef9-10ee-84e1-1006-90d1c861-fcf1",
+			"name": "Verrucomicrobiota",
+			"group": "Phylum",
+			"count": 4
+		},
+		{
+			"id": "e4c1f3a6-f425-d16e-26d3-ca4f201a-4892",
+			"name": "Amoebozoa",
+			"group": "Phylum",
+			"count": 3
+		},
+		{
+			"id": "c5cbc064-892b-a326-bf5d-cbd82a02-a102",
+			"name": "Obazoa",
+			"group": "Phylum",
+			"count": 2
+		},
+		{
+			"id": "4825cfd6-c73e-7671-3395-272fc43f-37f0",
+			"name": "Annelida",
+			"group": "Phylum",
+			"count": 6
+		},
+		{
+			"id": "6e3eeadc-ac99-331c-6f76-cceb61a6-c3ea",
+			"name": "Arthropoda",
+			"group": "Phylum",
+			"count": 16
+		},
+		{
+			"id": "b8bcdf23-89b1-3e22-0c35-f8e41344-b562",
+			"name": "Brachiopoda",
+			"group": "Phylum",
+			"count": 0
+		},
+		{
+			"id": "8fcec5c9-bae2-8444-f9d4-ad1c2469-08df",
+			"name": "Bryozoa",
+			"group": "Phylum",
+			"count": 3
+		},
+		{
+			"id": "4b6cbf59-bd37-6dc1-0e9f-c4414cf2-467c",
+			"name": "Chaetognatha",
+			"group": "Phylum",
+			"count": 0
+		},
+		{
+			"id": "5ceeb0c7-f937-64a5-2475-460b3982-328d",
+			"name": "Chordata",
+			"group": "Phylum",
+			"count": 26
+		},
+		{
+			"id": "9a08eaee-85c8-2db7-a802-2b49407c-7b33",
+			"name": "Cnidaria",
+			"group": "Phylum",
+			"count": 4
+		},
+		{
+			"id": "7987bfd6-e2ec-de5e-a3d4-e66119e4-10f1",
+			"name": "Ctenophora",
+			"group": "Phylum",
+			"count": 2
+		},
+		{
+			"id": "99259a24-c68c-c478-bd8d-d3781dce-bf5c",
+			"name": "Cycliophora",
+			"group": "Phylum",
+			"count": 0
+		},
+		{
+			"id": "914f4234-276b-d740-2143-d9d5c5ec-ca4f",
+			"name": "Echinodermata",
+			"group": "Phylum",
+			"count": 19
+		},
+		{
+			"id": "0054aac1-aead-5c7e-78b7-a13f041c-005f",
+			"name": "Entoprocta",
+			"group": "Phylum",
+			"count": 0
+		},
+		{
+			"id": "5a02cdf2-95da-e645-df47-8f26193c-47cf",
+			"name": "Gastrotricha",
+			"group": "Phylum",
+			"count": 0
+		},
+		{
+			"id": "a9b2735e-2530-5bc5-b13a-84d584e1-23ad",
+			"name": "Gnathifera",
+			"group": "Phylum",
+			"count": 1
+		},
+		{
+			"id": "9543d27a-8aa3-e566-994b-e9b3504b-170c",
+			"name": "Gnathostomulida",
+			"group": "Phylum",
+			"count": 0
+		},
+		{
+			"id": "b8f6a63e-2fe8-1806-7f3d-217f6f5d-9efc",
+			"name": "Hemichordata",
+			"group": "Phylum",
+			"count": 3
+		},
+		{
+			"id": "40a399d4-43e6-c69b-ba8b-1dddbd35-3134",
+			"name": "Kinorhyncha",
+			"group": "Phylum",
+			"count": 0
+		},
+		{
+			"id": "e545f021-3458-2d92-7fd2-53bdd8fe-a20e",
+			"name": "Loricifera",
+			"group": "Phylum",
+			"count": 0
+		},
+		{
+			"id": "a678d766-6336-213a-7bd1-b1d5a833-d641",
+			"name": "Mollusca",
+			"group": "Phylum",
+			"count": 9
+		},
+		{
+			"id": "2bce0e61-6315-ca9e-25f3-9a66b8cd-d269",
+			"name": "Nematoda",
+			"group": "Phylum",
+			"count": 0
+		},
+		{
+			"id": "ed31c728-d2df-7014-91d9-863624d7-0de7",
+			"name": "Nematomorpha",
+			"group": "Phylum",
+			"count": 2
+		},
+		{
+			"id": "3b071b32-2dca-3a4f-0cad-f3c1a984-e4c2",
+			"name": "Nemertea",
+			"group": "Phylum",
+			"count": 0
+		},
+		{
+			"id": "1e0648b2-0cc7-cbfe-bb49-0a273425-2d5e",
+			"name": "Onychophora",
+			"group": "Phylum",
+			"count": 0
+		},
+		{
+			"id": "0e78387c-c468-4132-bd0e-7548815a-986c",
+			"name": "Orthonectida",
+			"group": "Phylum",
+			"count": 0
+		},
+		{
+			"id": "61d56e08-4baf-eaba-a005-351c528d-8017",
+			"name": "Phoronida",
+			"group": "Phylum",
+			"count": 0
+		},
+		{
+			"id": "d03c2fa2-7670-edac-ecf2-0c0825e6-122c",
+			"name": "Placozoa",
+			"group": "Phylum",
+			"count": 0
+		},
+		{
+			"id": "a8e61a19-a33c-be6d-e685-63a51d77-ab36",
+			"name": "Platyhelminthes",
+			"group": "Phylum",
+			"count": 4
+		},
+		{
+			"id": "3d113bff-ecc5-e15c-b05b-07307e26-5e20",
+			"name": "Priapulida",
+			"group": "Phylum",
+			"count": 0
+		},
+		{
+			"id": "6f87d245-aea5-f7ce-c206-cd57fb8f-a600",
+			"name": "Porifera",
+			"group": "Phylum",
+			"count": 5
+		},
+		{
+			"id": "64086462-eefd-8a9b-2b4f-3d3fd181-44f0",
+			"name": "Proarticulata",
+			"group": "Phylum",
+			"count": 3
+		},
+		{
+			"id": "af7b4f01-c957-fb30-d64d-0b59a60d-d1a3",
+			"name": "Rhombozoa",
+			"group": "Phylum",
+			"count": 0
+		},
+		{
+			"id": "05866edb-ef17-57f1-3941-b9c9f9bc-384a",
+			"name": "Rotifera",
+			"group": "Phylum",
+			"count": 3
+		},
+		{
+			"id": "cdf8d598-22a4-e22f-bf73-15931c33-8701",
+			"name": "Sipuncula",
+			"group": "Phylum",
+			"count": 0
+		},
+		{
+			"id": "f5bdb2b2-b5b8-211a-eb47-477cdcfa-1652",
+			"name": "Tardigrada",
+			"group": "Phylum",
+			"count": 2
+		},
+		{
+			"id": "ab80055e-42c0-b903-7970-42ed7f78-0614",
+			"name": "Xenacoelomorpha",
+			"group": "Phylum",
+			"count": 3
+		},
+		{
+			"id": "04ab33ab-4ba4-b9ea-559a-b2436fe9-658c",
+			"name": "Xenoturbellida",
+			"group": "Phylum",
+			"count": 0
+		},
+		{
+			"id": "1beae72c-6e02-b0a6-fb4e-c5fb4385-1c35",
+			"name": "Aphelidiomycota",
+			"group": "Phylum",
+			"count": 1
+		},
+		{
+			"id": "a42c7f37-c32e-cf37-9e74-bba4c962-2cdf",
+			"name": "Ascomycota",
+			"group": "Phylum",
+			"count": 20
+		},
+		{
+			"id": "a907ad46-0161-5d84-caec-64e89cc2-0483",
+			"name": "Basidiobolomycota",
+			"group": "Phylum",
+			"count": 1
+		},
+		{
+			"id": "343e7b2b-635d-7fdb-9b76-73e23a39-a411",
+			"name": "Basidiomycota",
+			"group": "Phylum",
+			"count": 19
+		},
+		{
+			"id": "51bebd49-3638-379e-2d09-8160eeb8-05c9",
+			"name": "Blastocladiomycota",
+			"group": "Phylum",
+			"count": 2
+		},
+		{
+			"id": "59b43836-81d1-1113-2706-c91a1c65-d3cc",
+			"name": "Calcarisporiellomycota",
+			"group": "Phylum",
+			"count": 1
+		},
+		{
+			"id": "faaafb3a-a7cb-0a03-d7c2-fe1fb61d-7e15",
+			"name": "Chytridiomycota",
+			"group": "Phylum",
+			"count": 5
+		},
+		{
+			"id": "bfd3d0ed-1288-38a3-23b3-5cc6258b-6c9b",
+			"name": "Entomophthoromycota",
+			"group": "Phylum",
+			"count": 2
+		},
+		{
+			"id": "827f33a8-fb0a-f6ab-4f51-3203c830-4c71",
+			"name": "Entorrhizomycota",
+			"group": "Phylum",
+			"count": 1
+		},
+		{
+			"id": "3239d8b1-a93e-8d5d-d5f2-b7cb2b33-37bc",
+			"name": "Glomeromycota",
+			"group": "Phylum",
+			"count": 1
+		},
+		{
+			"id": "473ddaae-66cd-104e-9a83-d54687f9-9335",
+			"name": "Mucoromycota",
+			"group": "Phylum",
+			"count": 1
+		},
+		{
+			"id": "fdfa450d-fac1-ef07-12cd-b10a0f5b-d825",
+			"name": "Neocallimastigomycota",
+			"group": "Phylum",
+			"count": 1
+		},
+		{
+			"id": "9269344a-55ac-6560-57f1-6d2eed7e-fcbe",
+			"name": "Rozellomycota",
+			"group": "Phylum",
+			"count": 2
+		},
+		{
+			"id": "ad63ed80-106b-64cc-daf2-72a177a7-ab10",
+			"name": "Zoopagomyceta",
+			"group": "Phylum",
+			"count": 2
+		},
+		{
+			"id": "9953cbfa-6a52-1fce-893f-de80639e-7169",
+			"name": "Obazoa",
+			"group": "Phylum",
+			"count": 1
+		},
+		{
+			"id": "805d6895-95fd-c08c-aa4c-4eb811b2-107d",
+			"name": "Anthocerotophyta",
+			"group": "Phylum",
+			"count": 2
+		},
+		{
+			"id": "8cdc9598-0ec1-18e6-5a8e-e4da2e85-e3f0",
+			"name": "Bryophyta",
+			"group": "Phylum",
+			"count": 8
+		},
+		{
+			"id": "b7e2a2c4-5dfd-681c-df8b-b1d5d457-a172",
+			"name": "Charophyta",
+			"group": "Phylum",
+			"count": 6
+		},
+		{
+			"id": "20b5ffac-7005-59a4-f550-0ce9b12c-316c",
+			"name": "Chlorophyta",
+			"group": "Phylum",
+			"count": 10
+		},
+		{
+			"id": "a9657f08-3e5c-0960-ced7-054f5d5a-f664",
+			"name": "Cycadophyta",
+			"group": "Phylum",
+			"count": 1
+		},
+		{
+			"id": "bf39864b-c107-6a05-462a-b6ca82ae-76d4",
+			"name": "Ginkgophyta",
+			"group": "Phylum",
+			"count": 1
+		},
+		{
+			"id": "14b352e2-a112-2574-22f1-bb298f11-47de",
+			"name": "Glaucophyta",
+			"group": "Phylum",
+			"count": 1
+		},
+		{
+			"id": "4de618a3-dda3-8753-3afa-5d5912c2-47cb",
+			"name": "Gnetophyta",
+			"group": "Phylum",
+			"count": 1
+		},
+		{
+			"id": "a9905d21-6aa1-e249-0cce-9ad3aae9-775a",
+			"name": "Hemimastigophora",
+			"group": "Phylum",
+			"count": 1
+		},
+		{
+			"id": "785268e6-5759-4dfb-ab67-44764d56-1afe",
+			"name": "Lycopodiophyta",
+			"group": "Phylum",
+			"count": 2
+		},
+		{
+			"id": "dd3a1272-7e9f-2699-3914-55ff6793-a7c7",
+			"name": "Marchantiophyta ",
+			"group": "Phylum",
+			"count": 3
+		},
+		{
+			"id": "d8595ff7-9310-e370-1515-438a0f0e-ef51",
+			"name": "Pinophyta",
+			"group": "Phylum",
+			"count": 1
+		},
+		{
+			"id": "59225759-5810-6dc2-3330-fa923a01-67fe",
+			"name": "Polypodiophyta",
+			"group": "Phylum",
+			"count": 1
+		},
+		{
+			"id": "566ff251-feb1-0cbf-288a-da8a7065-3d76",
+			"name": "Rhodophyta",
+			"group": "Phylum",
+			"count": 7
+		},
+		{
+			"id": "91666e9a-9107-2bf2-97ea-84787085-d9dd",
+			"name": "Tracheophyta ",
+			"group": "Phylum",
+			"count": 4
+		},
+		{
+			"id": "ad80cdec-a593-a2b1-0ec6-8abc22a5-518a",
+			"name": "Crumalia",
+			"group": "Phylum",
+			"count": 3
+		},
+		{
+			"id": "09dce41e-51a9-c530-da5e-c260dff0-8407",
+			"name": "Malawimonada",
+			"group": "Phylum",
+			"count": 1
+		},
+		{
+			"id": "d500362a-3f0a-8f15-2604-9d00598c-8de9",
+			"name": "Metamonada",
+			"group": "Phylum",
+			"count": 4
+		},
+		{
+			"id": "c57548b3-2d17-80d7-26ef-d97e7e88-deb1",
+			"name": "Planomonada",
+			"group": "Phylum",
+			"count": 1
+		}
+	],
+	"edges":
+	[
+		{
+			"relationship": "BEGETS",
+			"source": "0bf142fe-9e83-de2f-c027-f2d4e8da-f5b2",
+			"target": "fab46d50-bc55-0eca-60ab-46e317e3-e8d7",
+			"id": "85d1b83b-1369-35a4-3be9-b4779098-f41d",
+			"group": "Kingdom",
+			"count": 3
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "0bf142fe-9e83-de2f-c027-f2d4e8da-f5b2",
+			"target": "a0aec52f-19ab-763d-907f-9e495310-ee12",
+			"id": "7e2f8fb0-9dfa-7d96-fc60-78a71af1-7255",
+			"group": "Kingdom",
+			"count": 2
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "0bf142fe-9e83-de2f-c027-f2d4e8da-f5b2",
+			"target": "521de86c-c5c3-7035-ad8c-6870814d-815b",
+			"id": "6f76da2f-4d7f-a9de-dfe5-38fe90e5-c2e2",
+			"group": "Kingdom",
+			"count": 1
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "6f5b0e66-86fe-93eb-ab1e-e99f86cd-3717",
+			"target": "97b28bd3-13bf-2b82-95df-41345a6c-5adc",
+			"id": "a3b4403a-1fb3-67d4-3195-22cc229e-4078",
+			"group": "Kingdom",
+			"count": 1
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "2560adaa-771d-bf6a-d53a-acd83753-bbab",
+			"target": "d51d0700-908a-5b10-0655-3a24fb62-e322",
+			"id": "33cab16f-f2b6-8e69-f9e7-e5c7b321-e6c7",
+			"group": "Kingdom",
+			"count": 6
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "2560adaa-771d-bf6a-d53a-acd83753-bbab",
+			"target": "0c0d764a-6d25-8f17-6573-ee4f0299-e091",
+			"id": "15a25dd9-989a-b331-f828-03ae5883-13fa",
+			"group": "Kingdom",
+			"count": 5
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "2560adaa-771d-bf6a-d53a-acd83753-bbab",
+			"target": "f047b950-8a6c-4899-07a3-f7e719fe-81cc",
+			"id": "56681ad6-5386-3afa-9e4a-d781b7a7-997b",
+			"group": "Kingdom",
+			"count": 4
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "2560adaa-771d-bf6a-d53a-acd83753-bbab",
+			"target": "14f38df5-9ec6-ce49-961c-e76c5cac-2511",
+			"id": "0eaeb210-954e-8fe0-cfaf-d19f0f38-7cf7",
+			"group": "Kingdom",
+			"count": 3
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "2560adaa-771d-bf6a-d53a-acd83753-bbab",
+			"target": "ced86aa1-e198-e293-798e-d3177575-8a04",
+			"id": "8f987850-2ff6-7941-6e88-4bb2a099-ac40",
+			"group": "Kingdom",
+			"count": 2
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "2560adaa-771d-bf6a-d53a-acd83753-bbab",
+			"target": "530df88d-5ea7-e706-3162-994d5622-a80c",
+			"id": "640020e3-93ac-1b8d-8c12-25c54d10-24df",
+			"group": "Kingdom",
+			"count": 1
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "fab46d50-bc55-0eca-60ab-46e317e3-e8d7",
+			"target": "87bed8fa-fd37-3962-cf7e-75d9f8d2-8db2",
+			"id": "f3046a71-e056-2507-74b8-a0046bde-65e3",
+			"group": "Phylum",
+			"count": 7
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "fab46d50-bc55-0eca-60ab-46e317e3-e8d7",
+			"target": "a6c3d2b7-ad4c-9129-ef3a-ea62683d-cca1",
+			"id": "50479d93-570e-7816-2591-0a0a265d-6552",
+			"group": "Phylum",
+			"count": 7
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "fab46d50-bc55-0eca-60ab-46e317e3-e8d7",
+			"target": "9fc73e2a-b167-f475-2cf0-e7b7fc2e-226c",
+			"id": "086d9ddb-63db-cd5c-c1f3-4d68eeef-70f6",
+			"group": "Phylum",
+			"count": 7
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "fab46d50-bc55-0eca-60ab-46e317e3-e8d7",
+			"target": "cdde83e3-7898-ee50-3ee2-78fbda07-c04f",
+			"id": "3caf836f-f2a5-590c-4fb4-087fc445-7490",
+			"group": "Phylum",
+			"count": 7
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "fab46d50-bc55-0eca-60ab-46e317e3-e8d7",
+			"target": "94d88010-4811-57a5-4dda-96dc8830-172b",
+			"id": "64b950e9-834a-ddea-0786-ce763202-27da",
+			"group": "Phylum",
+			"count": 7
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "fab46d50-bc55-0eca-60ab-46e317e3-e8d7",
+			"target": "4b9ba2c7-5792-3a67-a0a0-f7207c95-bf0c",
+			"id": "17bb4ea4-2d8c-2d17-8b6b-7937490d-16a5",
+			"group": "Phylum",
+			"count": 7
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "fab46d50-bc55-0eca-60ab-46e317e3-e8d7",
+			"target": "ab2083af-45f1-ae0d-5dde-51e7c31d-03f9",
+			"id": "3d6ff987-b056-5cfc-fa82-be70ebfa-43ba",
+			"group": "Phylum",
+			"count": 7
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "a0aec52f-19ab-763d-907f-9e495310-ee12",
+			"target": "a95623bf-dc4c-6952-e37a-22a29a16-56e8",
+			"id": "0a312fd5-f057-3ff9-d6aa-47a52d21-2c25",
+			"group": "Phylum",
+			"count": 5
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "a0aec52f-19ab-763d-907f-9e495310-ee12",
+			"target": "1b8eccec-12ce-6328-196e-298d7f53-3ba0",
+			"id": "997510b3-fbc0-b5fc-0a1f-78bb7ed5-54c1",
+			"group": "Phylum",
+			"count": 5
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "a0aec52f-19ab-763d-907f-9e495310-ee12",
+			"target": "8e4f5413-8834-4729-5e4c-651f07a2-072c",
+			"id": "2de0eab9-3aa8-fe8a-e96e-1b60e335-99c9",
+			"group": "Phylum",
+			"count": 5
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "a0aec52f-19ab-763d-907f-9e495310-ee12",
+			"target": "7af39be0-080b-c8f6-66bd-ec01aa77-a1d1",
+			"id": "07bd8a9d-3297-ce36-2e5f-6f9a4cb2-054e",
+			"group": "Phylum",
+			"count": 5
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "a0aec52f-19ab-763d-907f-9e495310-ee12",
+			"target": "62343c70-6427-dd8a-f1ea-4f1ef33e-2e5e",
+			"id": "254679f7-8aaa-ca87-95ee-9b705e4e-3911",
+			"group": "Phylum",
+			"count": 5
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "521de86c-c5c3-7035-ad8c-6870814d-815b",
+			"target": "21775f62-6a94-1080-8a11-35a56a48-84a7",
+			"id": "010f7017-3ec9-2851-1392-11006e6e-728d",
+			"group": "Phylum",
+			"count": 15
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "521de86c-c5c3-7035-ad8c-6870814d-815b",
+			"target": "e7c25b0c-af5e-eee2-7e38-dfd622a4-a64a",
+			"id": "1ca3bf34-fc78-daed-7836-8548f041-a485",
+			"group": "Phylum",
+			"count": 15
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "521de86c-c5c3-7035-ad8c-6870814d-815b",
+			"target": "11ad572e-d4e5-b038-345d-c6f93ecf-75ce",
+			"id": "2595e4f7-1cbc-af7f-49d8-27d93cc6-ae77",
+			"group": "Phylum",
+			"count": 15
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "521de86c-c5c3-7035-ad8c-6870814d-815b",
+			"target": "f5174174-2f7f-c463-13d8-861e5dc0-3a3e",
+			"id": "907061e6-b543-9589-4e2a-8b5adc53-412a",
+			"group": "Phylum",
+			"count": 15
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "521de86c-c5c3-7035-ad8c-6870814d-815b",
+			"target": "10a234ee-9709-e752-bd5a-773ac2bc-7f00",
+			"id": "d095f7c7-a1a0-7c47-e797-347c48ae-8d0f",
+			"group": "Phylum",
+			"count": 15
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "521de86c-c5c3-7035-ad8c-6870814d-815b",
+			"target": "b3b0ac14-c5ad-2673-dde9-63374b02-f680",
+			"id": "f2e89094-0312-25a2-75b0-7db4d026-48e1",
+			"group": "Phylum",
+			"count": 15
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "521de86c-c5c3-7035-ad8c-6870814d-815b",
+			"target": "31952bfa-f0b5-e89e-5f6d-445d6a12-6a7d",
+			"id": "ef7a2ed9-a8b8-fe64-4304-5ac0269a-2997",
+			"group": "Phylum",
+			"count": 15
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "521de86c-c5c3-7035-ad8c-6870814d-815b",
+			"target": "789ccc49-5c48-aebc-3190-56553389-4a5d",
+			"id": "a9f9c905-ef41-e93d-771c-a19642e7-fe94",
+			"group": "Phylum",
+			"count": 15
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "521de86c-c5c3-7035-ad8c-6870814d-815b",
+			"target": "252ddf57-3b83-021b-eed9-2bfd95d6-9d18",
+			"id": "1ef4373b-e6c3-e2e2-687f-020aa040-3acd",
+			"group": "Phylum",
+			"count": 15
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "521de86c-c5c3-7035-ad8c-6870814d-815b",
+			"target": "606149aa-fbf7-6340-8a42-bfb18568-d1ba",
+			"id": "49bfded2-2771-9638-601f-6702a09c-cd44",
+			"group": "Phylum",
+			"count": 15
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "521de86c-c5c3-7035-ad8c-6870814d-815b",
+			"target": "52525a29-7705-a4e7-7664-fe0ebe48-0e71",
+			"id": "ef4f9564-618a-e3d5-f0af-f0988ebb-d584",
+			"group": "Phylum",
+			"count": 15
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "521de86c-c5c3-7035-ad8c-6870814d-815b",
+			"target": "24a548f4-0289-963d-79ab-90ebc3cc-5aba",
+			"id": "b486ab77-76a6-5b97-50b5-7037f7e9-46ed",
+			"group": "Phylum",
+			"count": 15
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "521de86c-c5c3-7035-ad8c-6870814d-815b",
+			"target": "b32a84d8-4d2f-26fd-653e-7362be5f-6be0",
+			"id": "52015228-ce65-d26a-ed51-20b69e5c-456f",
+			"group": "Phylum",
+			"count": 15
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "521de86c-c5c3-7035-ad8c-6870814d-815b",
+			"target": "a05c617a-2c59-2b3b-bd69-a73c0322-1be0",
+			"id": "f935254f-3943-0452-ad0a-9ad21ecd-47db",
+			"group": "Phylum",
+			"count": 15
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "521de86c-c5c3-7035-ad8c-6870814d-815b",
+			"target": "085188a6-4629-4973-7504-8af0c3d8-736f",
+			"id": "23fafa29-003c-043d-9bbe-9e9ff3f0-a08e",
+			"group": "Phylum",
+			"count": 15
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "97b28bd3-13bf-2b82-95df-41345a6c-5adc",
+			"target": "d405f579-7c61-6451-00cf-882fcf09-3823",
+			"id": "e35c389c-b61e-62c3-3247-68fcf549-eeec",
+			"group": "Phylum",
+			"count": 39
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "97b28bd3-13bf-2b82-95df-41345a6c-5adc",
+			"target": "8c7dd25c-573d-4ca1-617f-24320b91-56fc",
+			"id": "5a9709ee-b348-9993-a923-be0e050c-058d",
+			"group": "Phylum",
+			"count": 39
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "97b28bd3-13bf-2b82-95df-41345a6c-5adc",
+			"target": "ba3b5917-de7f-561a-e2e0-0875b654-caee",
+			"id": "0ff8a644-e5ef-4f35-3949-daefa0a3-3c28",
+			"group": "Phylum",
+			"count": 39
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "97b28bd3-13bf-2b82-95df-41345a6c-5adc",
+			"target": "c356814a-ef90-e568-22de-8ec2db18-0083",
+			"id": "dbe6cc13-76cf-ddee-9f17-529528af-e418",
+			"group": "Phylum",
+			"count": 39
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "97b28bd3-13bf-2b82-95df-41345a6c-5adc",
+			"target": "1b64118b-e18e-a482-38f8-6d23383c-0f21",
+			"id": "1b32f77b-c6f2-c610-ed98-6fa66ac2-d304",
+			"group": "Phylum",
+			"count": 39
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "97b28bd3-13bf-2b82-95df-41345a6c-5adc",
+			"target": "8bfc3751-ff1a-a701-8523-13df9fd3-72b9",
+			"id": "a5283398-1918-6856-bf9a-0115ddab-9c3f",
+			"group": "Phylum",
+			"count": 39
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "97b28bd3-13bf-2b82-95df-41345a6c-5adc",
+			"target": "be108774-e47f-8523-9bae-31e8b59f-e35b",
+			"id": "1097e428-063a-0456-7720-13bbb563-ff12",
+			"group": "Phylum",
+			"count": 39
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "97b28bd3-13bf-2b82-95df-41345a6c-5adc",
+			"target": "2a4c71fe-b5e2-2403-2873-b5071e37-4fb6",
+			"id": "34dbeb98-845f-78d1-6b39-281f5961-1bc7",
+			"group": "Phylum",
+			"count": 39
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "97b28bd3-13bf-2b82-95df-41345a6c-5adc",
+			"target": "5feea57e-89e3-11da-4cb3-b106187f-dba6",
+			"id": "cc9a03b9-77c2-6603-9e48-c602c984-3e76",
+			"group": "Phylum",
+			"count": 39
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "97b28bd3-13bf-2b82-95df-41345a6c-5adc",
+			"target": "3a2ebbd9-53e8-1f47-d758-63ec2143-8e11",
+			"id": "c0e60cac-3274-917b-32b7-18904700-e97e",
+			"group": "Phylum",
+			"count": 39
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "97b28bd3-13bf-2b82-95df-41345a6c-5adc",
+			"target": "59aca45b-2adb-0ea3-bb35-b6c09df4-4e8f",
+			"id": "0e922ab8-0d43-7265-17bd-70fe7d08-a4d8",
+			"group": "Phylum",
+			"count": 39
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "97b28bd3-13bf-2b82-95df-41345a6c-5adc",
+			"target": "60f8f71f-03de-91d0-c21e-d56bb2e8-c4be",
+			"id": "70ba377f-1033-d415-9d6f-5d35dfd1-2e00",
+			"group": "Phylum",
+			"count": 39
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "97b28bd3-13bf-2b82-95df-41345a6c-5adc",
+			"target": "efcbefe9-eb04-db76-1c26-a561c277-30e8",
+			"id": "ec0843de-ba7c-355a-a399-c712b932-9b9b",
+			"group": "Phylum",
+			"count": 39
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "97b28bd3-13bf-2b82-95df-41345a6c-5adc",
+			"target": "93ee7a92-fc54-551a-a31c-5861a87d-6cac",
+			"id": "66eda711-ecb4-b79a-f23f-aef48c83-4b98",
+			"group": "Phylum",
+			"count": 39
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "97b28bd3-13bf-2b82-95df-41345a6c-5adc",
+			"target": "bd488fbf-9ab8-95a4-1d6b-90b9915f-08aa",
+			"id": "78d8ec8a-c399-fade-0e1b-a8179eff-f7b7",
+			"group": "Phylum",
+			"count": 39
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "97b28bd3-13bf-2b82-95df-41345a6c-5adc",
+			"target": "d7ea8de9-9f71-c0f6-c0d0-0472b4e5-5ed0",
+			"id": "8ec19dd6-8f96-60ed-3ac2-4baf8288-daac",
+			"group": "Phylum",
+			"count": 39
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "97b28bd3-13bf-2b82-95df-41345a6c-5adc",
+			"target": "b5b8a036-3b88-71d3-f769-f3944b00-eccd",
+			"id": "f27a5d5f-e4cf-8b19-9728-10fe7e70-84a6",
+			"group": "Phylum",
+			"count": 39
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "97b28bd3-13bf-2b82-95df-41345a6c-5adc",
+			"target": "865319e3-fc9e-a490-2460-eced2b44-cc7d",
+			"id": "c6b7b6aa-15ac-67e2-cbc5-19c2f21b-44bf",
+			"group": "Phylum",
+			"count": 39
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "97b28bd3-13bf-2b82-95df-41345a6c-5adc",
+			"target": "fe15f7e9-3dd5-bb17-28ff-0426ad67-4a18",
+			"id": "fec8267e-5bb3-fc2c-bb9b-042db350-c9f3",
+			"group": "Phylum",
+			"count": 39
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "97b28bd3-13bf-2b82-95df-41345a6c-5adc",
+			"target": "f5ff3839-14ee-d44c-54fd-2853e6fe-e4c6",
+			"id": "3df836d1-6e4f-750e-9118-d95cf493-5553",
+			"group": "Phylum",
+			"count": 39
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "97b28bd3-13bf-2b82-95df-41345a6c-5adc",
+			"target": "ffd425fa-e86c-cd63-4854-e0e3b1cc-a854",
+			"id": "47518129-3ce4-3c99-8f9b-0479f299-adaf",
+			"group": "Phylum",
+			"count": 39
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "97b28bd3-13bf-2b82-95df-41345a6c-5adc",
+			"target": "6b07f81f-a040-9e75-77ad-3809305b-8c06",
+			"id": "96c17532-54b8-13fe-8d0f-72d95388-565c",
+			"group": "Phylum",
+			"count": 39
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "97b28bd3-13bf-2b82-95df-41345a6c-5adc",
+			"target": "8fc6e54e-c84f-b196-a362-77a0a503-36ba",
+			"id": "00cf6438-6f17-5252-9b24-f08e3ec2-f357",
+			"group": "Phylum",
+			"count": 39
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "97b28bd3-13bf-2b82-95df-41345a6c-5adc",
+			"target": "3be6cc96-4227-d858-f60a-f159d6f4-a03b",
+			"id": "1c0fbb9d-9777-13dc-347e-9e8586e7-815a",
+			"group": "Phylum",
+			"count": 39
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "97b28bd3-13bf-2b82-95df-41345a6c-5adc",
+			"target": "82e0dbbc-3a38-7fee-50eb-db9c8c96-81f3",
+			"id": "69a45d7d-7f90-b71e-fe0a-5b7aa36e-6260",
+			"group": "Phylum",
+			"count": 39
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "97b28bd3-13bf-2b82-95df-41345a6c-5adc",
+			"target": "59530b60-1095-989d-4c2f-a3b248f7-8ec8",
+			"id": "4581299d-fa58-6bb4-c67a-ffa40c3f-1a71",
+			"group": "Phylum",
+			"count": 39
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "97b28bd3-13bf-2b82-95df-41345a6c-5adc",
+			"target": "d9bc780d-75bb-d134-5a31-6bed5c3b-5fce",
+			"id": "aeb0cf55-7395-8ec3-3ebd-aeed82b7-a47b",
+			"group": "Phylum",
+			"count": 39
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "97b28bd3-13bf-2b82-95df-41345a6c-5adc",
+			"target": "c56e5342-55d9-6f75-f117-0ea31f38-f580",
+			"id": "5c059e07-54b6-4051-a754-e6b11ac2-c2fa",
+			"group": "Phylum",
+			"count": 39
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "97b28bd3-13bf-2b82-95df-41345a6c-5adc",
+			"target": "f44e9d1e-93fd-443d-2fa3-e9c5338d-09eb",
+			"id": "c6b9694d-f856-bed1-1263-440d35a9-da3d",
+			"group": "Phylum",
+			"count": 39
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "97b28bd3-13bf-2b82-95df-41345a6c-5adc",
+			"target": "b2e79378-a911-d05d-9697-60d40663-78b6",
+			"id": "16945462-c900-512f-941c-47105fca-f738",
+			"group": "Phylum",
+			"count": 39
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "97b28bd3-13bf-2b82-95df-41345a6c-5adc",
+			"target": "8c672b93-c9b7-1c4e-30bb-683925fb-f6d6",
+			"id": "529210b6-3360-32eb-fb3e-6cf22fe9-f40c",
+			"group": "Phylum",
+			"count": 39
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "97b28bd3-13bf-2b82-95df-41345a6c-5adc",
+			"target": "867803d7-6452-4755-69b1-e1ea681a-c842",
+			"id": "6cd1c1b6-7d17-1562-612f-9bc2956c-0224",
+			"group": "Phylum",
+			"count": 39
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "97b28bd3-13bf-2b82-95df-41345a6c-5adc",
+			"target": "239dc046-9aa2-bf93-abea-c994d923-4f5b",
+			"id": "533341d5-3a95-1684-f6dd-e9fe08ff-dff3",
+			"group": "Phylum",
+			"count": 39
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "97b28bd3-13bf-2b82-95df-41345a6c-5adc",
+			"target": "08ab8808-04dc-ed62-b227-e68a4608-5029",
+			"id": "a34117d5-eb34-2337-c132-9ead8edb-098c",
+			"group": "Phylum",
+			"count": 39
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "97b28bd3-13bf-2b82-95df-41345a6c-5adc",
+			"target": "12de1f50-d2d2-c024-6e03-81c0aa2c-d76f",
+			"id": "1a286fcb-e69a-17e4-70a1-1bb91ed2-fced",
+			"group": "Phylum",
+			"count": 39
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "97b28bd3-13bf-2b82-95df-41345a6c-5adc",
+			"target": "be730034-5e1a-c7ec-b7c0-210e0356-596e",
+			"id": "7d016d44-0f00-a10d-8fbe-3c3b3afd-fdc7",
+			"group": "Phylum",
+			"count": 39
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "97b28bd3-13bf-2b82-95df-41345a6c-5adc",
+			"target": "8491da0f-f624-b842-a521-c25d4b67-dd1d",
+			"id": "ee770064-60d7-ea90-ed62-caa3be7b-fcdd",
+			"group": "Phylum",
+			"count": 39
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "97b28bd3-13bf-2b82-95df-41345a6c-5adc",
+			"target": "1168f462-8361-17cd-5b69-e78e1f01-1772",
+			"id": "a8e0e851-cb4e-ea21-cb5a-1438d728-b38f",
+			"group": "Phylum",
+			"count": 39
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "97b28bd3-13bf-2b82-95df-41345a6c-5adc",
+			"target": "31e91ef9-10ee-84e1-1006-90d1c861-fcf1",
+			"id": "8b4c9502-b8bd-1027-8b03-80d19520-44e1",
+			"group": "Phylum",
+			"count": 39
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "d51d0700-908a-5b10-0655-3a24fb62-e322",
+			"target": "e4c1f3a6-f425-d16e-26d3-ca4f201a-4892",
+			"id": "b0d4df33-a6cb-8ee5-10d0-9182a2d8-3260",
+			"group": "Phylum",
+			"count": 2
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "d51d0700-908a-5b10-0655-3a24fb62-e322",
+			"target": "c5cbc064-892b-a326-bf5d-cbd82a02-a102",
+			"id": "e0155607-3498-941e-3788-a15c16fd-7ca2",
+			"group": "Phylum",
+			"count": 2
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "0c0d764a-6d25-8f17-6573-ee4f0299-e091",
+			"target": "4825cfd6-c73e-7671-3395-272fc43f-37f0",
+			"id": "b4213f6b-3e30-764d-8d70-7854a947-2aea",
+			"group": "Phylum",
+			"count": 35
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "0c0d764a-6d25-8f17-6573-ee4f0299-e091",
+			"target": "6e3eeadc-ac99-331c-6f76-cceb61a6-c3ea",
+			"id": "21cd5670-29e5-195c-8960-edd5a3e9-1c57",
+			"group": "Phylum",
+			"count": 35
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "0c0d764a-6d25-8f17-6573-ee4f0299-e091",
+			"target": "b8bcdf23-89b1-3e22-0c35-f8e41344-b562",
+			"id": "9538f5fb-022b-bf64-021b-651cda40-a6eb",
+			"group": "Phylum",
+			"count": 35
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "0c0d764a-6d25-8f17-6573-ee4f0299-e091",
+			"target": "8fcec5c9-bae2-8444-f9d4-ad1c2469-08df",
+			"id": "c209b23d-2ba1-4f1e-3a5e-cc047d91-f878",
+			"group": "Phylum",
+			"count": 35
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "0c0d764a-6d25-8f17-6573-ee4f0299-e091",
+			"target": "4b6cbf59-bd37-6dc1-0e9f-c4414cf2-467c",
+			"id": "53cd39f9-f7a0-c742-a7f5-3a7b2404-e951",
+			"group": "Phylum",
+			"count": 35
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "0c0d764a-6d25-8f17-6573-ee4f0299-e091",
+			"target": "5ceeb0c7-f937-64a5-2475-460b3982-328d",
+			"id": "57b8a518-b75b-7927-7c8b-754a6f7f-b6cd",
+			"group": "Phylum",
+			"count": 35
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "0c0d764a-6d25-8f17-6573-ee4f0299-e091",
+			"target": "9a08eaee-85c8-2db7-a802-2b49407c-7b33",
+			"id": "1e98c8b9-3d61-19c1-9c17-60921ebb-e85e",
+			"group": "Phylum",
+			"count": 35
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "0c0d764a-6d25-8f17-6573-ee4f0299-e091",
+			"target": "7987bfd6-e2ec-de5e-a3d4-e66119e4-10f1",
+			"id": "6fb476f1-e5d8-96f3-6ad2-f1eb9c97-7b6b",
+			"group": "Phylum",
+			"count": 35
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "0c0d764a-6d25-8f17-6573-ee4f0299-e091",
+			"target": "99259a24-c68c-c478-bd8d-d3781dce-bf5c",
+			"id": "ab0300d0-bf6a-dc20-f6ce-62cd36f8-e577",
+			"group": "Phylum",
+			"count": 35
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "0c0d764a-6d25-8f17-6573-ee4f0299-e091",
+			"target": "914f4234-276b-d740-2143-d9d5c5ec-ca4f",
+			"id": "c6d24567-4e4f-ae8a-bef2-fecf0e7b-1c82",
+			"group": "Phylum",
+			"count": 35
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "0c0d764a-6d25-8f17-6573-ee4f0299-e091",
+			"target": "0054aac1-aead-5c7e-78b7-a13f041c-005f",
+			"id": "b23a852c-2255-2769-96df-8556c8ce-ea12",
+			"group": "Phylum",
+			"count": 35
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "0c0d764a-6d25-8f17-6573-ee4f0299-e091",
+			"target": "5a02cdf2-95da-e645-df47-8f26193c-47cf",
+			"id": "191d9a54-38f0-c7f5-f1c5-cba9c1fd-3bfd",
+			"group": "Phylum",
+			"count": 35
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "0c0d764a-6d25-8f17-6573-ee4f0299-e091",
+			"target": "a9b2735e-2530-5bc5-b13a-84d584e1-23ad",
+			"id": "777b600d-ea01-5f52-2f16-a032bfe8-9c45",
+			"group": "Phylum",
+			"count": 35
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "0c0d764a-6d25-8f17-6573-ee4f0299-e091",
+			"target": "9543d27a-8aa3-e566-994b-e9b3504b-170c",
+			"id": "ec8b0c15-b10d-1a7d-163b-8bf534eb-a06a",
+			"group": "Phylum",
+			"count": 35
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "0c0d764a-6d25-8f17-6573-ee4f0299-e091",
+			"target": "b8f6a63e-2fe8-1806-7f3d-217f6f5d-9efc",
+			"id": "22402b1c-cf69-14d0-1618-c9da23e1-2b2d",
+			"group": "Phylum",
+			"count": 35
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "0c0d764a-6d25-8f17-6573-ee4f0299-e091",
+			"target": "40a399d4-43e6-c69b-ba8b-1dddbd35-3134",
+			"id": "ca943b3e-54bc-1c75-9eb4-8a40b4c2-bd13",
+			"group": "Phylum",
+			"count": 35
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "0c0d764a-6d25-8f17-6573-ee4f0299-e091",
+			"target": "e545f021-3458-2d92-7fd2-53bdd8fe-a20e",
+			"id": "766419bf-eda0-28e3-8269-63d20487-881c",
+			"group": "Phylum",
+			"count": 35
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "0c0d764a-6d25-8f17-6573-ee4f0299-e091",
+			"target": "a678d766-6336-213a-7bd1-b1d5a833-d641",
+			"id": "5aee195f-9aae-5d3e-af36-4485e5e6-0734",
+			"group": "Phylum",
+			"count": 35
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "0c0d764a-6d25-8f17-6573-ee4f0299-e091",
+			"target": "2bce0e61-6315-ca9e-25f3-9a66b8cd-d269",
+			"id": "345aee25-1120-48f5-4eda-bfdb4f48-4a73",
+			"group": "Phylum",
+			"count": 35
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "0c0d764a-6d25-8f17-6573-ee4f0299-e091",
+			"target": "ed31c728-d2df-7014-91d9-863624d7-0de7",
+			"id": "66be3f0a-d7a6-5764-95be-fbf76977-753e",
+			"group": "Phylum",
+			"count": 35
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "0c0d764a-6d25-8f17-6573-ee4f0299-e091",
+			"target": "3b071b32-2dca-3a4f-0cad-f3c1a984-e4c2",
+			"id": "a8c0ce73-4166-345d-f20d-7c0cc674-6ae8",
+			"group": "Phylum",
+			"count": 35
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "0c0d764a-6d25-8f17-6573-ee4f0299-e091",
+			"target": "1e0648b2-0cc7-cbfe-bb49-0a273425-2d5e",
+			"id": "a643c330-1a64-6177-b6d5-782fadf9-922e",
+			"group": "Phylum",
+			"count": 35
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "0c0d764a-6d25-8f17-6573-ee4f0299-e091",
+			"target": "0e78387c-c468-4132-bd0e-7548815a-986c",
+			"id": "ed9094b2-8477-23ef-03a4-396792d3-a200",
+			"group": "Phylum",
+			"count": 35
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "0c0d764a-6d25-8f17-6573-ee4f0299-e091",
+			"target": "61d56e08-4baf-eaba-a005-351c528d-8017",
+			"id": "904828cb-5330-254c-d910-d9f60091-dad0",
+			"group": "Phylum",
+			"count": 35
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "0c0d764a-6d25-8f17-6573-ee4f0299-e091",
+			"target": "d03c2fa2-7670-edac-ecf2-0c0825e6-122c",
+			"id": "19c3906a-c1a5-8c7c-9658-a3f7ab44-1346",
+			"group": "Phylum",
+			"count": 35
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "0c0d764a-6d25-8f17-6573-ee4f0299-e091",
+			"target": "a8e61a19-a33c-be6d-e685-63a51d77-ab36",
+			"id": "8b96635a-e40c-0fc5-5d9f-de2dfea2-e56b",
+			"group": "Phylum",
+			"count": 35
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "0c0d764a-6d25-8f17-6573-ee4f0299-e091",
+			"target": "3d113bff-ecc5-e15c-b05b-07307e26-5e20",
+			"id": "09beb256-ef58-d84e-e4e5-ebf1a49c-2eb8",
+			"group": "Phylum",
+			"count": 35
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "0c0d764a-6d25-8f17-6573-ee4f0299-e091",
+			"target": "6f87d245-aea5-f7ce-c206-cd57fb8f-a600",
+			"id": "f5446c5d-9b16-30bf-d432-46e9f3c7-f4f4",
+			"group": "Phylum",
+			"count": 35
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "0c0d764a-6d25-8f17-6573-ee4f0299-e091",
+			"target": "64086462-eefd-8a9b-2b4f-3d3fd181-44f0",
+			"id": "deb3bff6-376d-5cb7-f922-0555032f-1294",
+			"group": "Phylum",
+			"count": 35
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "0c0d764a-6d25-8f17-6573-ee4f0299-e091",
+			"target": "af7b4f01-c957-fb30-d64d-0b59a60d-d1a3",
+			"id": "b4621edc-923f-41ad-d77e-b3f75113-5cd0",
+			"group": "Phylum",
+			"count": 35
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "0c0d764a-6d25-8f17-6573-ee4f0299-e091",
+			"target": "05866edb-ef17-57f1-3941-b9c9f9bc-384a",
+			"id": "e2cc0e43-c497-65b7-87e0-7fd075de-b75b",
+			"group": "Phylum",
+			"count": 35
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "0c0d764a-6d25-8f17-6573-ee4f0299-e091",
+			"target": "cdf8d598-22a4-e22f-bf73-15931c33-8701",
+			"id": "6d599126-03c4-3e3e-2e6b-9592a5f8-693b",
+			"group": "Phylum",
+			"count": 35
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "0c0d764a-6d25-8f17-6573-ee4f0299-e091",
+			"target": "f5bdb2b2-b5b8-211a-eb47-477cdcfa-1652",
+			"id": "a647f9e1-077b-ad1f-ec31-f9c83e45-f66f",
+			"group": "Phylum",
+			"count": 35
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "0c0d764a-6d25-8f17-6573-ee4f0299-e091",
+			"target": "ab80055e-42c0-b903-7970-42ed7f78-0614",
+			"id": "f310d345-3c82-e8e8-1334-6d080d06-4480",
+			"group": "Phylum",
+			"count": 35
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "0c0d764a-6d25-8f17-6573-ee4f0299-e091",
+			"target": "04ab33ab-4ba4-b9ea-559a-b2436fe9-658c",
+			"id": "9b52d342-b30b-6a16-0270-84a037de-1c4a",
+			"group": "Phylum",
+			"count": 35
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "f047b950-8a6c-4899-07a3-f7e719fe-81cc",
+			"target": "1beae72c-6e02-b0a6-fb4e-c5fb4385-1c35",
+			"id": "fc51cda7-2429-2449-2461-933b93be-0953",
+			"group": "Phylum",
+			"count": 14
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "f047b950-8a6c-4899-07a3-f7e719fe-81cc",
+			"target": "a42c7f37-c32e-cf37-9e74-bba4c962-2cdf",
+			"id": "12bd99ff-16cb-db01-ef3d-d46d7462-31a0",
+			"group": "Phylum",
+			"count": 14
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "f047b950-8a6c-4899-07a3-f7e719fe-81cc",
+			"target": "a907ad46-0161-5d84-caec-64e89cc2-0483",
+			"id": "938f426a-ec7f-7404-71c1-8e8790da-b669",
+			"group": "Phylum",
+			"count": 14
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "f047b950-8a6c-4899-07a3-f7e719fe-81cc",
+			"target": "343e7b2b-635d-7fdb-9b76-73e23a39-a411",
+			"id": "5c580a63-bde4-ae5c-647e-7dd7bb9d-ec42",
+			"group": "Phylum",
+			"count": 14
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "f047b950-8a6c-4899-07a3-f7e719fe-81cc",
+			"target": "51bebd49-3638-379e-2d09-8160eeb8-05c9",
+			"id": "146d6f9c-9fb3-5401-8f94-ffc4e45b-583c",
+			"group": "Phylum",
+			"count": 14
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "f047b950-8a6c-4899-07a3-f7e719fe-81cc",
+			"target": "59b43836-81d1-1113-2706-c91a1c65-d3cc",
+			"id": "278b72c7-b0a2-6424-aedd-ac2bde00-859f",
+			"group": "Phylum",
+			"count": 14
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "f047b950-8a6c-4899-07a3-f7e719fe-81cc",
+			"target": "faaafb3a-a7cb-0a03-d7c2-fe1fb61d-7e15",
+			"id": "8eb35f86-1536-b79b-e22d-120bf512-9118",
+			"group": "Phylum",
+			"count": 14
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "f047b950-8a6c-4899-07a3-f7e719fe-81cc",
+			"target": "bfd3d0ed-1288-38a3-23b3-5cc6258b-6c9b",
+			"id": "10cef92a-32f3-ca4a-6c71-581f1168-14b8",
+			"group": "Phylum",
+			"count": 14
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "f047b950-8a6c-4899-07a3-f7e719fe-81cc",
+			"target": "827f33a8-fb0a-f6ab-4f51-3203c830-4c71",
+			"id": "249c3e29-129f-2455-b203-9b9457be-0c19",
+			"group": "Phylum",
+			"count": 14
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "f047b950-8a6c-4899-07a3-f7e719fe-81cc",
+			"target": "3239d8b1-a93e-8d5d-d5f2-b7cb2b33-37bc",
+			"id": "63a6f613-6bd5-fdd4-a1d0-f60e0c0f-11c6",
+			"group": "Phylum",
+			"count": 14
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "f047b950-8a6c-4899-07a3-f7e719fe-81cc",
+			"target": "473ddaae-66cd-104e-9a83-d54687f9-9335",
+			"id": "4a63af5a-3cea-0dfc-6181-f5b65f0b-aeca",
+			"group": "Phylum",
+			"count": 14
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "f047b950-8a6c-4899-07a3-f7e719fe-81cc",
+			"target": "fdfa450d-fac1-ef07-12cd-b10a0f5b-d825",
+			"id": "640326b2-fa77-c4f3-6928-27ad437f-60ee",
+			"group": "Phylum",
+			"count": 14
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "f047b950-8a6c-4899-07a3-f7e719fe-81cc",
+			"target": "9269344a-55ac-6560-57f1-6d2eed7e-fcbe",
+			"id": "4f428f8a-ba77-c197-4f12-35602f1d-df9a",
+			"group": "Phylum",
+			"count": 14
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "f047b950-8a6c-4899-07a3-f7e719fe-81cc",
+			"target": "ad63ed80-106b-64cc-daf2-72a177a7-ab10",
+			"id": "1dbc2838-4dd3-026e-8b02-7053c59f-f21f",
+			"group": "Phylum",
+			"count": 14
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "14f38df5-9ec6-ce49-961c-e76c5cac-2511",
+			"target": "9953cbfa-6a52-1fce-893f-de80639e-7169",
+			"id": "9303b6aa-a507-6c9d-78a1-488c738c-9013",
+			"group": "Phylum",
+			"count": 1
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "ced86aa1-e198-e293-798e-d3177575-8a04",
+			"target": "805d6895-95fd-c08c-aa4c-4eb811b2-107d",
+			"id": "3ff8eedf-63ee-a4c5-7933-70fce14a-8242",
+			"group": "Phylum",
+			"count": 15
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "ced86aa1-e198-e293-798e-d3177575-8a04",
+			"target": "8cdc9598-0ec1-18e6-5a8e-e4da2e85-e3f0",
+			"id": "a709c781-575a-3da6-7ac6-82a4bfcc-0789",
+			"group": "Phylum",
+			"count": 15
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "ced86aa1-e198-e293-798e-d3177575-8a04",
+			"target": "b7e2a2c4-5dfd-681c-df8b-b1d5d457-a172",
+			"id": "b207a0f1-87ab-3f6f-9561-623e31a9-2e43",
+			"group": "Phylum",
+			"count": 15
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "ced86aa1-e198-e293-798e-d3177575-8a04",
+			"target": "20b5ffac-7005-59a4-f550-0ce9b12c-316c",
+			"id": "ac4c2558-802b-d483-4f78-86338b63-8ce1",
+			"group": "Phylum",
+			"count": 15
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "ced86aa1-e198-e293-798e-d3177575-8a04",
+			"target": "a9657f08-3e5c-0960-ced7-054f5d5a-f664",
+			"id": "996396b6-d104-6caa-f459-c2eab57f-478b",
+			"group": "Phylum",
+			"count": 15
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "ced86aa1-e198-e293-798e-d3177575-8a04",
+			"target": "bf39864b-c107-6a05-462a-b6ca82ae-76d4",
+			"id": "07078879-384b-e910-fef7-effe6d64-eb42",
+			"group": "Phylum",
+			"count": 15
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "ced86aa1-e198-e293-798e-d3177575-8a04",
+			"target": "14b352e2-a112-2574-22f1-bb298f11-47de",
+			"id": "a44cb569-3d64-de34-f265-9529de56-ddd5",
+			"group": "Phylum",
+			"count": 15
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "ced86aa1-e198-e293-798e-d3177575-8a04",
+			"target": "4de618a3-dda3-8753-3afa-5d5912c2-47cb",
+			"id": "328cf659-1eb5-8665-208a-c9c1073f-5000",
+			"group": "Phylum",
+			"count": 15
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "ced86aa1-e198-e293-798e-d3177575-8a04",
+			"target": "a9905d21-6aa1-e249-0cce-9ad3aae9-775a",
+			"id": "a8e47d17-d0e9-1ae5-a4ba-0e3082c3-0363",
+			"group": "Phylum",
+			"count": 15
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "ced86aa1-e198-e293-798e-d3177575-8a04",
+			"target": "785268e6-5759-4dfb-ab67-44764d56-1afe",
+			"id": "b5d7e219-9b46-86b5-3291-7e217a86-a53b",
+			"group": "Phylum",
+			"count": 15
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "ced86aa1-e198-e293-798e-d3177575-8a04",
+			"target": "dd3a1272-7e9f-2699-3914-55ff6793-a7c7",
+			"id": "96da3df2-161f-2bc0-0c00-f42b9985-dcb7",
+			"group": "Phylum",
+			"count": 15
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "ced86aa1-e198-e293-798e-d3177575-8a04",
+			"target": "d8595ff7-9310-e370-1515-438a0f0e-ef51",
+			"id": "19babea7-aeb7-1a46-8898-4841a2e5-de83",
+			"group": "Phylum",
+			"count": 15
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "ced86aa1-e198-e293-798e-d3177575-8a04",
+			"target": "59225759-5810-6dc2-3330-fa923a01-67fe",
+			"id": "98a98ed1-3966-e7d8-eb11-a3f2ee7d-fd66",
+			"group": "Phylum",
+			"count": 15
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "ced86aa1-e198-e293-798e-d3177575-8a04",
+			"target": "566ff251-feb1-0cbf-288a-da8a7065-3d76",
+			"id": "77140464-d85d-2a84-610c-8a5146f0-0af3",
+			"group": "Phylum",
+			"count": 15
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "ced86aa1-e198-e293-798e-d3177575-8a04",
+			"target": "91666e9a-9107-2bf2-97ea-84787085-d9dd",
+			"id": "ba249483-0e43-28f1-72a4-d4ca757a-253a",
+			"group": "Phylum",
+			"count": 15
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "530df88d-5ea7-e706-3162-994d5622-a80c",
+			"target": "ad80cdec-a593-a2b1-0ec6-8abc22a5-518a",
+			"id": "5788a233-07e8-13b3-e130-b7d36998-68bd",
+			"group": "Phylum",
+			"count": 1
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "530df88d-5ea7-e706-3162-994d5622-a80c",
+			"target": "09dce41e-51a9-c530-da5e-c260dff0-8407",
+			"id": "d911b039-f1ef-3c90-5da9-39b33186-6af4",
+			"group": "Phylum",
+			"count": 4
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "530df88d-5ea7-e706-3162-994d5622-a80c",
+			"target": "d500362a-3f0a-8f15-2604-9d00598c-8de9",
+			"id": "6bf0973a-73a7-db27-86ba-42235b3a-37c0",
+			"group": "Phylum",
+			"count": 4
+		},
+		{
+			"relationship": "BEGETS",
+			"source": "530df88d-5ea7-e706-3162-994d5622-a80c",
+			"target": "c57548b3-2d17-80d7-26ef-d97e7e88-deb1",
+			"id": "a2d6a63f-dcf2-75df-6cd1-8814d9d9-3b4d",
+			"group": "Phylum",
+			"count": 4
+		}
+	]
+}
